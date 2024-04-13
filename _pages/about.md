@@ -46,13 +46,27 @@ redirect_from:
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Educations and occupational history
+- 2003至2007, 武汉大学, 计算机学院, 本科, 导师：黄传河
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- 2007至2009, 华中科技大学, 计算机科学与技术学院, 硕士, 导师: 卢炎生
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- 2009至2013, 华中科技大学, 计算机科学与技术学院, 博士, 导师: 卢炎生
+
+- 2013至2014, 中南民族大学, 计算机科学学院, 讲师
+
+- 2014至2015, 武汉理工大学, 计算机科学与技术学院, 讲师
+
+- 2014至2017, 武汉理工大学, 光纤传感技术国家工程实验室, 博士后, 导师: 姜德生
+
+- 2015至2021, 武汉理工大学, 计算机科学与技术学院, 副教授
+
+- 2016至2017, 佛罗里达大学, 电子与计算机工程系, 访问学者
+
+- 2021至2022，武汉理工大学，计算机与人工智能学院, 副教授
+
+- 2021至2022, 北京大学, 信息科学技术学院, 访问学者, 导师: 黄铁军
+
+- 2022至2023, 武汉理工大学, 信息化办公室, 副主任（挂）
+
+- 2022至今, 武汉理工大学, 计算机与人工智能学院, 教授
