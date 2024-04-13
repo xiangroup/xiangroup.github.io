@@ -22,7 +22,7 @@ redirect_from:
 研究领域：人工智能、多媒体信息处理、神经形态计算.
 
 
-# 🔥 News
+# 🔥 research direction
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
