@@ -22,7 +22,7 @@ redirect_from:
 研究领域：人工智能、多媒体信息处理、神经形态计算.
 
 
-# 💻︎ research direction
+# 💻︎ Research direction
 - 多媒体降质增强：图像去雨、图像修复
 
 -  多媒体目标识别：目标重识别、目标搜索、人群计数
