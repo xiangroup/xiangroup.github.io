@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "research direction"
-    url: "/#-research direction"
+  - title: "Research Direction"
+    url: "/#-research-direction"
 
   - title: "Publications"
     url: "/#-publications"
@@ -12,8 +12,8 @@ main:
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations and occupational history"
-    url: "/#-Educations and occupational history"
+  - title: "Educations And Occupational History"
+    url: "/#-educations-and-occupational-history"
 
 #  - title: "Invited Talks"
 #    url: "/#-invited-talks"
