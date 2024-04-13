@@ -22,7 +22,7 @@ redirect_from:
 研究领域：人工智能、多媒体信息处理、神经形态计算.
 
 
-# 💻︎ Research direction
+# 💻︎ Research Direction
 - 多媒体降质增强：图像去雨、图像修复
 
 -  多媒体目标识别：目标重识别、目标搜索、人群计数
@@ -52,7 +52,7 @@ redirect_from:
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibs sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
+# 🎖 Honors And Awards
 - Xian Zhong, Cheng Gu, Mang Ye*, Wenxin Huang, Chia-Wen Lin. Graph Complemented Latent Representation for Few-Shot Image Classification. IEEE Trans. Multimedia, 2023, 25: 1979-1990 (CCF B刊, 中科院一区顶刊, JCR Q1, 影响影子7.3)
 
 - Xian Zhong, Xu Yan, Zhengwei Yang, Wenxin Huang*, Kui Jiang, Ryan Wen Liu, Zheng Wang. Visual Exposes You: Pedestrian Trajectory Prediction Meets Visual Intention. IEEE Trans. Intell. Transp. Syst., 2023 (CCF B刊, 中科院一区顶刊, JCR Q1, 影响因子8.5)
