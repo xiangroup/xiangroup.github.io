@@ -34,6 +34,8 @@ redirect_from:
 - 跨媒体分析与检索：视频描述、跨模态检索
 
 - 神经形态计算：脉冲神经网络
+
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
