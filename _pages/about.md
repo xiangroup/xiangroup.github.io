@@ -82,7 +82,7 @@ redirect_from:
 - Xian Zhong, Shilei Zhao, Xiao Wang*, Kui Jiang, Wenxuan Liu, Wenxin Huang, Zheng Wang. Unsupervised Vehicle Search in the Wild: A New Benchmark. in Proc. ACM Int. Conf. Multimedia, 2021: 5316-5325 (CCF A会)
 
 
-# 📖 Educations and occupational history
+# 📖 Educations And Occupational History
 - 2003至2007, 武汉大学, 计算机学院, 本科, 导师：黄传河
   
 - 2007至2009, 华中科技大学, 计算机科学与技术学院, 硕士, 导师: 卢炎生
