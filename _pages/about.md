@@ -22,10 +22,18 @@ redirect_from:
 研究领域：人工智能、多媒体信息处理、神经形态计算.
 
 
-# 🔥 research direction
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 💻︎ research direction
+-多媒体降质增强：图像去雨、图像修复
 
+-多媒体目标识别：目标重识别、目标搜索、人群计数
+
+-多媒体场景理解：语义分割
+
+-多媒体行为识别：行为识别、行为检测、轨迹预测
+
+·-跨媒体分析与检索：视频描述、跨模态检索
+
+·神经形态计算：脉冲神经网络
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
