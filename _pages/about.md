@@ -75,9 +75,7 @@ redirect_from:
 
 - Xian Zhong, Shidong Tu, Xianzheng Ma, Kui Jiang*, Wenxin Huang, Zheng Wang. Rainy WCity: A Real Rainfall Dataset with Diverse Conditions for Semantic Driving Scene Understanding. in Proc. Int. Joint Conf. Artif. Intell., 2022: 1743-1749 (CCF A会)
 
-- Huilin Zhu, Jingling Yuan, Zhengwei Yang, Xian Zhong*, Zheng Wang:
-
-Fine-Grained Fragment Diffusion for Cross Domain Crowd Counting. in Proc. ACM Int. Conf. Multimedia, 2022: 5659-5668 (CCF A会)
+- Huilin Zhu, Jingling Yuan, Zhengwei Yang, Xian Zhong*, Zheng Wang:Fine-Grained Fragment Diffusion for Cross Domain Crowd Counting. in Proc. ACM Int. Conf. Multimedia, 2022: 5659-5668 (CCF A会)
 
 - Xian Zhong, Shilei Zhao, Xiao Wang*, Kui Jiang, Wenxuan Liu, Wenxin Huang, Zheng Wang. Unsupervised Vehicle Search in the Wild: A New Benchmark. in Proc. ACM Int. Conf. Multimedia, 2021: 5316-5325 (CCF A会)
 
