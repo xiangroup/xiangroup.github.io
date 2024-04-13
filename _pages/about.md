@@ -40,7 +40,7 @@ redirect_from:
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibs sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -56,8 +56,8 @@ redirect_from:
 - 2013至2014, 中南民族大学, 计算机科学学院, 讲师
   
 - 2014至2015, 武汉理工大学, 计算机科学与技术学院, 讲师
-
-- 2014至2017, 武汉理工大学, 光纤传感技术国家工程实验室, 博士后, 导师: 姜德生
+  
+- 2014至2017, 武汉理工大学, 光纤传感技术国家工程实验室, 博士后, 导师: 姜德生
 
 - 2015至2021, 武汉理工大学, 计算机科学与技术学院, 副教授
   
