@@ -81,6 +81,18 @@ transparency.
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: none;">Member</td>
+    <td style="border: none;">IEEE</td>
+  </tr>
+  <tr>
+    <td style="border: none;">Member</td>
+    <td style="border: none;">CCF</td>
+  </tr>
+   <tr>
+    <td style="border: none;">Vice Chair</td>
+    <td style="border: none;">CCF YOCSEF Wuhan Academic Committee</td>
+  </tr>
+  <tr>
+    <td style="border: none;">Member</td>
     <td style="border: none;">CCF Technical Committee on Multimedia Technology</td>
   </tr>
   <tr>
