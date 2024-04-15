@@ -77,8 +77,10 @@ transparency.
 - ICASSP ’23 Outstanding Reviewer Recognition
 
 # 🎖️Services
-       Member  IEEE <br>     
-Senior Member  CCF<br />
+<br />
+       Member  IEEE 
+<br />
+Senior Member  CCF
    Vice Chair  CCF YOCSEF Wuhan Academic Committee<br />
        Member  CCF Technical Committee on Multimedia Technology
        Member  CSIG Technical Committee on Multimedia
