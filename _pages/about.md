@@ -43,7 +43,7 @@ transparency.
 - 神经形态计算：脉冲神经网络
 
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -60,33 +60,14 @@ transparency.
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibs sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors And Awards
-- Xian Zhong, Cheng Gu, Mang Ye*, Wenxin Huang, Chia-Wen Lin. Graph Complemented Latent Representation for Few-Shot Image Classification. IEEE Trans. Multimedia, 2023, 25: 1979-1990 (CCF B刊, 中科院一区顶刊, JCR Q1, 影响影子7.3)
-
-- Xian Zhong, Xu Yan, Zhengwei Yang, Wenxin Huang*, Kui Jiang, Ryan Wen Liu, Zheng Wang. Visual Exposes You: Pedestrian Trajectory Prediction Meets Visual Intention. IEEE Trans. Intell. Transp. Syst., 2023 (CCF B刊, 中科院一区顶刊, JCR Q1, 影响因子8.5)
-
-- Wenxuan Liu, Xian Zhong*, Zhuo Zhou, Kui Jiang, Zheng Wang, Chia-Wen Lin. Dual-Recommendation Disentanglement Network for View Fuzz in Action Recognition. IEEE Trans. Image Process., 2023, 32: 2719-2733 (CCF A刊, 中科院一区顶刊, JCR Q1, 影响影子10.6)
-
-- Zhengwei Yang, Xian Zhong*, Zhun Zhong, Hong Liu, Zheng Wang, Shin'ichi Satoh. Win-Win by Competition: Auxiliary-Free Cloth-Changing Person Re-Identification. IEEE Trans. Image Process., 2023, 32: 2985-2999 (CCF A刊, 中科院一区顶刊, JCR Q1, 影响影子10.6)
-
-- Wenxin Huang, Xuemei Jia, Xian Zhong*, Xiao Wang, Kui Jiang, Zheng Wang. Beyond the Parts: Learning Coarse-to-Fine Adaptive Alignment Representation for Person Search. ACM Trans. Multimedia Comput. Commun. Appl., 2023, 19(3): 105:1-105:19 (CCF B刊, 中科院三区, JCR Q1, 影响影子5.1)
-
-- Xian Zhong, Tianyou Lu, Wenxin Huang*, Mang Ye, Xuemei Jia, Chia-Wen Lin. Grayscale Enhancement Colorization Network for Visible-Infrared Person Re-Identification. IEEE Trans. Circuits Syst. Video Technol., 2022, 32(3): 1418-1430 (高被引论文, CCF B刊, 中科院一区顶刊, JCR Q1, 影响影子8.4)
-
-- Xuemei Jia, Xian Zhong#, Mang Ye*, Wenxuan Liu, Wenxin Huang. Complementary Data Augmentation for Cloth-Changing Person Re-Identification. IEEE Trans. Image Process. 2022, 31: 4227-4239 (CCF A刊, 中科院一区顶刊, JCR Q1, 影响影子10.6)
-
-- Xian Zhong, Zipeng Li, Shuqin Chen*, Kui Jiang, Chen Chen, Mang Ye. Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning. in Proc. AAAI Conf. Artif. Intell., 2023: 3724-3732 (CCF A会)
-
-- Huilin Zhu, Jingling Yuan, Xian Zhong*, Zhengwei Yang, Zheng Wang, Shengfeng He. DAOT: Domain-Agnostically Aligned Optimal Transport for Domain-Adaptive Crowd Counting, in Proc. ACM Int. Conf. Multimedia, 2023 (CCF A会)
-
-- Kui Jiang, Wenxuan Liu, Xian Zhong, Chia-Wen Lin. DAWN: Direction-aware Attention Wavelet Network for Image Deraining, in Proc. ACM Int. Conf. Multimedia, 2023 (CCF A会)
-
-- Zhengwei Yang, Meng Lin, Xian Zhong, Yu Wu, Zheng Wang*. Good is Bad: Causality Inspired Cloth-debiasing for Cloth-changing Person Re-identification, in Proc. IEEE/CVF Comput. Vis. Pattern Recognit., 2023 (CCF A会)
-
-- Xian Zhong, Shidong Tu, Xianzheng Ma, Kui Jiang*, Wenxin Huang, Zheng Wang. Rainy WCity: A Real Rainfall Dataset with Diverse Conditions for Semantic Driving Scene Understanding. in Proc. Int. Joint Conf. Artif. Intell., 2022: 1743-1749 (CCF A会)
-
-- Huilin Zhu, Jingling Yuan, Zhengwei Yang, Xian Zhong*, Zheng Wang:Fine-Grained Fragment Diffusion for Cross Domain Crowd Counting. in Proc. ACM Int. Conf. Multimedia, 2022: 5659-5668 (CCF A会)
-
-- Xian Zhong, Shilei Zhao, Xiao Wang*, Kui Jiang, Wenxuan Liu, Wenxin Huang, Zheng Wang. Unsupervised Vehicle Search in the Wild: A New Benchmark. in Proc. ACM Int. Conf. Multimedia, 2021: 5316-5325 (CCF A会)
+- First Prize ’12 Hubei Provincial Science and Technology Progress Award
+- Third Prize ’12 Hubei Provincial Technological Invention Award
+- Third Prize ’13 Hubei Provincial Science and Technology Progress Award
+- First Prize ’13 Wuhan Science and Technology Progress Award
+- Second Prize ’16 Wuhan Science and Technology Progress Award
+- First Prize ’18 Hubei Provincial Colleges and Universities Teaching Achievement Award
+- First Prize ’23 Hubei Provincial Colleges and Universities Teaching Achievement Award
+- ICASSP ’23 Outstanding Reviewer Recognition
 
 
 # 📖 Educations And Occupational History
