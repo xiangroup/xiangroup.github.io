@@ -85,18 +85,15 @@ Senior Member  CCF
        Member  CSIG Technical Committee on Traffic Video
  Board Member  Wuhan Computer Software Engineering Society
        Member  ACM SIGMM
- Guest Editor  Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding
-               and Assessment of Low-Quality Multimedia Data”
+ Guest Editor  Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding and Assessment of Low-Quality Multimedia Data”
  Guest Editor  Applied Science Special Issue on “Recent Advances in Image Processing”
      Reviewer  TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc
-    Organizer  ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges
-               in Real-world Rain Scenes”
+    Organizer  ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes”
 Session Chair  CGI ’22 LNCS track sessions “Segmentation”
 Session Chair  IJCAI YES ’23 Group 8
 Session Chair  IJCAI ’23 invited
 Session Chair  ICME ’22 invited
-    PC member  CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23,
-               COLING ’20/’22/’24, ICASSP ’23/’24, etc.
+    PC member  CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23,COLING ’20/’22/’24, ICASSP ’23/’24, etc.
 
 
 
