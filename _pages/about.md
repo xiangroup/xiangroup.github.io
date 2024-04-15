@@ -59,38 +59,56 @@ transparency.
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibs sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors And Awards
+# 🎖Awards
 - First Prize ’12 Hubei Provincial Science and Technology Progress Award
+  
 - Third Prize ’12 Hubei Provincial Technological Invention Award
+  
 - Third Prize ’13 Hubei Provincial Science and Technology Progress Award
+  
 - First Prize ’13 Wuhan Science and Technology Progress Award
+  
 - Second Prize ’16 Wuhan Science and Technology Progress Award
+  
 - First Prize ’18 Hubei Provincial Colleges and Universities Teaching Achievement Award
+  
 - First Prize ’23 Hubei Provincial Colleges and Universities Teaching Achievement Award
+
 - ICASSP ’23 Outstanding Reviewer Recognition
 
+# 🎖️Services
+       Member  IEEE
+Senior Member  CCF
+   Vice Chair  CCF YOCSEF Wuhan Academic Committee
+       Member  CCF Technical Committee on Multimedia Technology
+       Member  CSIG Technical Committee on Multimedia
+       Member  CSIG Technical Committee on Traffic Video
+ Board Member  Wuhan Computer Software Engineering Society
+       Member  ACM SIGMM
+ Guest Editor  Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding
+               and Assessment of Low-Quality Multimedia Data”
+ Guest Editor  Applied Science Special Issue on “Recent Advances in Image Processing”
+     Reviewer  TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc
+    Organizer  ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges
+               in Real-world Rain Scenes”
+Session Chair  CGI ’22 LNCS track sessions “Segmentation”
+Session Chair  IJCAI YES ’23 Group 8
+Session Chair  IJCAI ’23 invited
+Session Chair  ICME ’22 invited
+    PC member  CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23,
+               COLING ’20/’22/’24, ICASSP ’23/’24, etc.
 
-# 📖 Educations And Occupational History
-- 2003至2007, 武汉大学, 计算机学院, 本科, 导师：黄传河
-  
-- 2007至2009, 华中科技大学, 计算机科学与技术学院, 硕士, 导师: 卢炎生
-  
-- 2009至2013, 华中科技大学, 计算机科学与技术学院, 博士, 导师: 卢炎生
-  
-- 2013至2014, 中南民族大学, 计算机科学学院, 讲师
-  
-- 2014至2015, 武汉理工大学, 计算机科学与技术学院, 讲师
-  
-- 2014至2017, 武汉理工大学, 光纤传感技术国家工程实验室, 博士后, 导师: 姜德生
-  
-- 2015至2021, 武汉理工大学, 计算机科学与技术学院, 副教授
-  
-- 2016至2017, 佛罗里达大学, 电子与计算机工程系, 访问学者
 
-- 2021至2022，武汉理工大学，计算机与人工智能学院, 副教授
 
-- 2021至2022, 北京大学, 信息科学技术学院, 访问学者, 导师: 黄铁军
-  
-- 2022至2023, 武汉理工大学, 信息化办公室, 副主任（挂）
 
-- 2022至今, 武汉理工大学, 计算机与人工智能学院, 教授
+# 📖 Education
+- 2003–2007 B.S., Wuhan University, China.
+
+- 2007–2009 M.S., Huazhong University of Science and Technology, China.
+
+- 2009–2013 Ph.D., Huazhong University of Science and Technology, China.
+
+- 2023-now  Visiting Ph.D,Nanyang Technological University,Singapore
+
+
+
