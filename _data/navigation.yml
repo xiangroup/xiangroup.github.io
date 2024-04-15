@@ -6,17 +6,20 @@ main:
   - title: "Research Direction"
     url: "/#-research-direction"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Selected Publications"
+    url: "/#-selected-publications"
 
-  - title: "Honors And Awards"
-    url: "/#-honors-and-awards"
+  - title: "Awards"
+    url: "/#-awards"
 
-  - title: "Educations And Occupational History"
-    url: "/#-educations-and-occupational-history"
+  - title: "Services"
+    url: "/#-services"
+    
+  - title: "Education"
+    url: "/#-education"
 
-#  - title: "Invited Talks"
-#    url: "/#-invited-talks"
+  - title: "Employment"
+    url: "/#-employment"
 
 #  - title: "Internships"
 #    url: "/#-internships"
