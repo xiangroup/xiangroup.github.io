@@ -80,62 +80,63 @@ transparency.
 
 <table style="border-collapse: collapse;">
   <tr>
-    <td>Member</td>
-    <td>CCF Technical Committee on Multimedia Technology</td>
+    <td style="border: none;">Member</td>
+    <td style="border: none;">CCF Technical Committee on Multimedia Technology</td>
   </tr>
   <tr>
-    <td>Member</td>
-    <td>CSIG Technical Committee on Multimedia</td>
+    <td style="border: none;">Member</td>
+    <td style="border: none;">CSIG Technical Committee on Multimedia</td>
   </tr>
   <tr>
-    <td>Member</td>
-    <td>CSIG Technical Committee on Traffic Video</td>
+    <td style="border: none;">Member</td>
+    <td style="border: none;">CSIG Technical Committee on Traffic Video</td>
   </tr>
   <tr>
-    <td>Board Member</td>
-    <td>Wuhan Computer Software Engineering Society</td>
+    <td style="border: none;">Board Member</td>
+    <td style="border: none;">Wuhan Computer Software Engineering Society</td>
   </tr>
   <tr>
-    <td>Member</td>
-    <td>ACM SIGMM</td>
+    <td style="border: none;">Member</td>
+    <td style="border: none;">ACM SIGMM</td>
   </tr>
   <tr>
-    <td>Guest Editor</td>
-    <td>Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding and Assessment of Low-Quality Multimedia Data”</td>
+    <td style="border: none;">Guest Editor</td>
+    <td style="border: none;">Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding and Assessment of Low-Quality Multimedia Data”</td>
   </tr>
   <tr>
-    <td>Guest Editor</td>
-    <td>Applied Science Special Issue on “Recent Advances in Image Processing”</td>
+    <td style="border: none;">Guest Editor</td>
+    <td style="border: none;">Applied Science Special Issue on “Recent Advances in Image Processing”</td>
   </tr>
   <tr>
-    <td>Reviewer</td>
-    <td>TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc</td>
+    <td style="border: none;">Reviewer</td>
+    <td style="border: none;">TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc</td>
   </tr>
   <tr>
-    <td>Organizer</td>
-    <td>ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes”</td>
+    <td style="border: none;">Organizer</td>
+    <td style="border: none;">ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes”</td>
   </tr>
   <tr>
-    <td>Session Chair</td>
-    <td>CGI ’22 LNCS track sessions “Segmentation”</td>
+    <td style="border: none;">Session Chair</td>
+    <td style="border: none;">CGI ’22 LNCS track sessions “Segmentation”</td>
   </tr>
   <tr>
-    <td>Session Chair</td>
-    <td>IJCAI YES ’23 Group 8</td>
+    <td style="border: none;">Session Chair</td>
+    <td style="border: none;">IJCAI YES ’23 Group 8</td>
   </tr>
   <tr>
-    <td>Session Chair</td>
-    <td>IJCAI ’23 invited</td>
+    <td style="border: none;">Session Chair</td>
+    <td style="border: none;">IJCAI ’23 invited</td>
   </tr>
   <tr>
-    <td>Session Chair</td>
-    <td>ICME ’22 invited</td>
+    <td style="border: none;">Session Chair</td>
+    <td style="border: none;">ICME ’22 invited</td>
   </tr>
   <tr>
-    <td>PC member</td>
-    <td>CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23, COLING ’20/’22/’24, ICASSP ’23/’24, etc</td>
+    <td style="border: none;">PC member</td>
+    <td style="border: none;">CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23, COLING ’20/’22/’24, ICASSP ’23/’24, etc</td>
   </tr>
 </table>
+
 
 
 
