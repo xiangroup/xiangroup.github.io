@@ -59,7 +59,7 @@ transparency.
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibs sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖Awards
+# 🏆Awards
 - First Prize ’12 Hubei Provincial Science and Technology Progress Award
   
 - Third Prize ’12 Hubei Provincial Technological Invention Award
