@@ -23,12 +23,6 @@ redirect_from:
 &nbsp;&nbsp;&nbsp;&nbsp;He served as a leading organizer of the Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes” at ICME ’23, and a mentor for the PhD MentoringSessions at both ICME ’23 and ICIP ’23. He served as a guest editor for Multimedia Tools and Applications special issue on “Robust Enhancement, Understanding, and Assessment of Low-Quality Multimedia Data”, and for Applied Science special issue on “Recent Advances in Image Processing”. In the administrative field, he served as the Deputy Director (’22–’23) of the Information Office at WHUT, playing a key role in implementing data-driven business process reengineering and management optimization. Under his leadership, a Data Driven Management Center was established, introducing a governance model for important decision meetings known as “systematic reporting, data narration”. Additionally, the first AI Vice President’s Assistant was launched, utilizing AI to remind of task implementation progress and goal achievement, thereby enhancing governance
 transparency.
 
-
-
-
-
-
-
 # 💻︎ Research Direction
 - 多媒体降质增强：图像去雨、图像修复
 
@@ -41,7 +35,6 @@ transparency.
 - 跨媒体分析与检索：视频描述、跨模态检索
 
 - 神经形态计算：脉冲神经网络
-
 
 # 📝 Selected Publications 
 
@@ -149,19 +142,20 @@ transparency.
   </tr>
 </table>
 
-
-
-
-
-
-# 📖 Education
+# 🧑‍🎓 Education
 - '03–'07 B.S., Wuhan University, China.
 
 - '07–'09 M.S., Huazhong University of Science and Technology, China.
 
 - '09–'13 Ph.D., Huazhong University of Science and Technology, China.
 
-- '23-now  Visiting Ph.D,Nanyang Technological University,Singapore
-
-
-
+# 👨‍🏫 Employment
+- ’14–’15 Lecture, Wuhan University of Technology, China.
+  
+- ’15–’22 Associate Professor, Wuhan University of Technology, China.
+  
+- ’22–Now Professor, Wuhan University of Technology, China.
+  
+- ’21–’22 Visiting Scholar, Peking University, China.
+  
+- ’23–Now Visiting Scholar, Nanyang Technological University, Singapore.
