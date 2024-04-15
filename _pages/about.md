@@ -77,35 +77,65 @@ transparency.
 - ICASSP ’23 Outstanding Reviewer Recognition
 
 # 🎖️Services
-<table>
-    <tr>
-        <td>Member</td>
-        <td>IEEE </td>
-    </tr>
-    <tr>
-        <td>Senior Member</td>
-        <td>CCF</td>
-    </tr>
-    <tr>
-        <td>Vice Chair</td>
-        <td>CCF YOCSEF Wuhan Academic Committee</td>
-    </tr>
-</table>
-       Member  CCF Technical Committee on Multimedia Technology
-       Member  CSIG Technical Committee on Multimedia
-       Member  CSIG Technical Committee on Traffic Video
- Board Member  Wuhan Computer Software Engineering Society
-       Member  ACM SIGMM
- Guest Editor  Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding and Assessment of Low-Quality Multimedia Data”
- Guest Editor  Applied Science Special Issue on “Recent Advances in Image Processing”
-     Reviewer  TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc
-    Organizer  ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes”
-Session Chair  CGI ’22 LNCS track sessions “Segmentation”
-Session Chair  IJCAI YES ’23 Group 8
-Session Chair  IJCAI ’23 invited
-Session Chair  ICME ’22 invited
-    PC member  CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23,COLING ’20/’22/’24, ICASSP ’23/’24, etc.
 
+<table style="border-collapse: collapse;">
+  <tr>
+    <td>Member</td>
+    <td>CCF Technical Committee on Multimedia Technology</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>CSIG Technical Committee on Multimedia</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>CSIG Technical Committee on Traffic Video</td>
+  </tr>
+  <tr>
+    <td>Board Member</td>
+    <td>Wuhan Computer Software Engineering Society</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>ACM SIGMM</td>
+  </tr>
+  <tr>
+    <td>Guest Editor</td>
+    <td>Multimedia Tools and Applications Special Issue on “Robust Enhancement, Understanding and Assessment of Low-Quality Multimedia Data”</td>
+  </tr>
+  <tr>
+    <td>Guest Editor</td>
+    <td>Applied Science Special Issue on “Recent Advances in Image Processing”</td>
+  </tr>
+  <tr>
+    <td>Reviewer</td>
+    <td>TIP, IJCV, TMM, TCSVT, TGRS, TAI, ESWA, EAAI, COMPAG, etc</td>
+  </tr>
+  <tr>
+    <td>Organizer</td>
+    <td>ICME ’23 Grand Challenge “Seeing Through the Rain (STRAIN): Vision Task Challenges in Real-world Rain Scenes”</td>
+  </tr>
+  <tr>
+    <td>Session Chair</td>
+    <td>CGI ’22 LNCS track sessions “Segmentation”</td>
+  </tr>
+  <tr>
+    <td>Session Chair</td>
+    <td>IJCAI YES ’23 Group 8</td>
+  </tr>
+  <tr>
+    <td>Session Chair</td>
+    <td>IJCAI ’23 invited</td>
+  </tr>
+  <tr>
+    <td>Session Chair</td>
+    <td>ICME ’22 invited</td>
+  </tr>
+  <tr>
+    <td>PC member</td>
+    <td>CVPR ’24, ACM MM ’23/’24, AAAI ’23, IJCAI ’23/’24, ACL ’21/’23, EMNLP ’21/’23, COLING ’20/’22/’24, ICASSP ’23/’24, etc</td>
+  </tr>
+</table>
 
 
 
