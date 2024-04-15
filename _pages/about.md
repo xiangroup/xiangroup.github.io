@@ -155,13 +155,13 @@ transparency.
 
 
 # 📖 Education
-- 2003–2007 B.S., Wuhan University, China.
+- '03–'07 B.S., Wuhan University, China.
 
-- 2007–2009 M.S., Huazhong University of Science and Technology, China.
+- '07–'09 M.S., Huazhong University of Science and Technology, China.
 
-- 2009–2013 Ph.D., Huazhong University of Science and Technology, China.
+- '09–'13 Ph.D., Huazhong University of Science and Technology, China.
 
-- 2023-now  Visiting Ph.D,Nanyang Technological University,Singapore
+- '23-now  Visiting Ph.D,Nanyang Technological University,Singapore
 
 
 
