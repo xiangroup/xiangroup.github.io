@@ -78,8 +78,11 @@ transparency.
 
 # 🎖️Services
        Member  IEEE
+       
 Senior Member  CCF
+
    Vice Chair  CCF YOCSEF Wuhan Academic Committee
+   
        Member  CCF Technical Committee on Multimedia Technology
        Member  CSIG Technical Committee on Multimedia
        Member  CSIG Technical Committee on Traffic Video
