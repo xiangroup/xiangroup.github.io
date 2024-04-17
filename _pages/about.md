@@ -38,15 +38,18 @@ transparency.
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TRANSACTIONS ON IMAGE PROCESSING 2023</div><img src='images/51cloud.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Dual-Recommendation Disentanglement Network for View Fuzz in Action Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10122859)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Wenxuan Liu**,Xian Zhong, Zhuo Zhou, Zheng Wang,Chia-Wen Lin
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Code**](https://github.com/51cloud/DRDN) [**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10122859)
+- We perceive a ubiquitous view fuzz issue in multi-view action recognition tasks, which undermines the action feature distillation by hiding essential action regions.
+- We propose a novel Pyramid Dynamic Recommendation (PDR) scheme that uses dynamic selection to re-assign feature weights so as to avianize the impact of view fuzz on fusion.
+- We design a novel Dual-Recommendation Disentanglement Network (DRDN) to tackle view fuzz for crossview action recognition. In DRDN, Specific Information Recommendation (SIR) and PDR collaboratively enhance learning ability by reconsidering the weight of redundant information.
+- We conduct extensive experiments that validate our model’s superior accuracy, robustness, and reliability with our multi-view adaptive dynamic selection strategy.
 </div>
 </div>
 
