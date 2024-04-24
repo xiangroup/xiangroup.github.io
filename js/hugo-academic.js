@@ -16,21 +16,21 @@
   /**
    * Responsive hash scrolling.
    * Check for a URL hash as an anchor.
-   * If it exists on current page, scroll to it responsively.
-   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   * If it exists on current page,&nbsp; scroll to it responsively.
+   * If `target` argument omitted (e.g. after event),&nbsp; assume it's the window's hash.
    */
   function scrollToAnchor(target) {
-    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    // If `target` is undefined or HashChangeEvent object,&nbsp; set it to window's hash.
     target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
-    // Escape colons from IDs, such as those found in Markdown footnote links.
-    target = target.replace(/:/g, '\\:');
+    // Escape colons from IDs,&nbsp; such as those found in Markdown footnote links.
+    target = target.replace(/:/g,&nbsp; '\\:');
 
-    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    // If target element exists,&nbsp; scroll to it taking into account fixed navigation bar offset.
     if($(target).length) {
       $('body').addClass('scrolling');
-      $('html, body').animate({
+      $('html,&nbsp; body').animate({
         scrollTop: $(target).offset().top - navbar_offset
-      }, 600, function () {
+      },&nbsp; 600,&nbsp; function () {
         $('body').removeClass('scrolling');
       });
     }
@@ -42,32 +42,32 @@
     let data = $body.data('bs.scrollspy');
     if (data) {
       data.options.offset = navbar_offset;
-      $body.data('bs.scrollspy', data);
+      $body.data('bs.scrollspy',&nbsp; data);
       $body.scrollspy('refresh');
     }
   }
 
   // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
-  window.addEventListener("hashchange", scrollToAnchor);
+  window.addEventListener("hashchange",&nbsp; scrollToAnchor);
 
   /* ---------------------------------------------------------------------------
    * Add smooth scrolling to all links inside the main navbar.
    * --------------------------------------------------------------------------- */
 
-  $('#navbar-main li.nav-item a').on('click', function(event) {
+  $('#navbar-main li.nav-item a').on('click',&nbsp; function(event) {
     // Store requested URL hash.
     let hash = this.hash;
 
-    // If we are on the homepage and the navigation bar link is to a homepage section.
-    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+    // If we are on the Group and the navigation bar link is to a Group section.
+    if ( hash && $(hash).length && ($("#Group").length > 0)) {
       // Prevent default click behavior.
       event.preventDefault();
 
       // Use jQuery's animate() method for smooth page scrolling.
       // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
-      $('html, body').animate({
+      $('html,&nbsp; body').animate({
         scrollTop: $(hash).offset().top - navbar_offset
-      }, 800);
+      },&nbsp; 800);
     }
   });
 
@@ -75,11 +75,11 @@
    * Smooth scrolling for Back To Top link.
    * --------------------------------------------------------------------------- */
 
-  $('#back_to_top').on('click', function(event) {
+  $('#back_to_top').on('click',&nbsp; function(event) {
     event.preventDefault();
-    $('html, body').animate({
+    $('html,&nbsp; body').animate({
       'scrollTop': 0
-    }, 800, function() {
+    },&nbsp; 800,&nbsp; function() {
       window.location.hash = "";
     });
   });
@@ -88,8 +88,8 @@
    * Hide mobile collapsable menu on clicking a link.
    * --------------------------------------------------------------------------- */
 
-  $(document).on('click', '.navbar-collapse.in', function(e) {
-    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+  $(document).on('click',&nbsp; '.navbar-collapse.in',&nbsp; function(e) {
+    //get the <a> element that was clicked,&nbsp; even if the <span> element that is inside the <a> element is e.target
     let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
 
     if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
@@ -103,8 +103,8 @@
 
   let $grid_pubs = $('#container-publications');
   $grid_pubs.isotope({
-    itemSelector: '.isotope-item',
-    percentPosition: true,
+    itemSelector: '.isotope-item',&nbsp;
+    percentPosition: true,&nbsp;
     masonry: {
       // Use Bootstrap compatible grid layout.
       columnWidth: '.grid-sizer'
@@ -123,7 +123,7 @@
     return value;
   }
 
-  $('.pub-filters').on( 'change', function() {
+  $('.pub-filters').on( 'change',&nbsp; function() {
     let $this = $(this);
 
     // Get group key.
@@ -138,11 +138,11 @@
     // Activate filters.
     $grid_pubs.isotope({ filter: filterValues });
 
-    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    // If filtering by publication type,&nbsp; update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
       // Set hash URL to current filter.
       let url = $(this).val();
-      if (url.substr(0, 9) == '.pubtype-') {
+      if (url.substr(0,&nbsp; 9) == '.pubtype-') {
         window.location.hash = url.substr(9);
       } else {
         window.location.hash = '';
@@ -152,7 +152,7 @@
 
   // Filter publications according to hash in URL.
   function filter_publications() {
-    let urlHash = window.location.hash.replace('#','');
+    let urlHash = window.location.hash.replace('#',&nbsp;'');
     let filterValue = '*';
 
     // Check if hash is numeric.
@@ -187,49 +187,49 @@
       
       if ( map_provider == 1 ) {
         let map = new GMaps({
-          div: '#map',
-          lat: lat,
-          lng: lng,
-          zoom: zoom,
-          zoomControl: true,
+          div: '#map',&nbsp;
+          lat: lat,&nbsp;
+          lng: lng,&nbsp;
+          zoom: zoom,&nbsp;
+          zoomControl: true,&nbsp;
           zoomControlOpt: {
-            style: 'SMALL',
+            style: 'SMALL',&nbsp;
             position: 'TOP_LEFT'
-          },
-          panControl: false,
-          streetViewControl: false,
-          mapTypeControl: false,
-          overviewMapControl: false,
-          scrollwheel: true,
+          },&nbsp;
+          panControl: false,&nbsp;
+          streetViewControl: false,&nbsp;
+          mapTypeControl: false,&nbsp;
+          overviewMapControl: false,&nbsp;
+          scrollwheel: true,&nbsp;
           draggable: true
         });
 
         map.addMarker({
-          lat: lat,
-          lng: lng,
+          lat: lat,&nbsp;
+          lng: lng,&nbsp;
           click: function (e) {
-            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
-            window.open(url, '_blank')
-          },
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',&nbsp;' + lng +'/';
+            window.open(url,&nbsp; '_blank')
+          },&nbsp;
           title: address
         })
       } else {
-          let map = new L.map('map').setView([lat, lng], zoom);
+          let map = new L.map('map').setView([lat,&nbsp; lng],&nbsp; zoom);
           if ( map_provider == 3 && api_key.length ) {
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-              maxZoom: 18,
-              id: 'mapbox.streets',
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',&nbsp; {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,&nbsp; <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,&nbsp; Imagery © <a href="http://mapbox.com">Mapbox</a>',&nbsp;
+              maxZoom: 18,&nbsp;
+              id: 'mapbox.streets',&nbsp;
               accessToken: api_key
             }).addTo(map);
           } else {
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-              maxZoom: 19,
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',&nbsp; {
+              maxZoom: 19,&nbsp;
               attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             }).addTo(map);
           }
-          let marker = L.marker([lat, lng]).addTo(map);
-          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          let marker = L.marker([lat,&nbsp; lng]).addTo(map);
+          let url = lat + ',&nbsp;' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
           marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
       }
     }
@@ -239,13 +239,13 @@
    * On window load.
    * --------------------------------------------------------------------------- */
 
-  $(window).on('load', function() {
+  $(window).on('load',&nbsp; function() {
     if (window.location.hash) {
-      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      // When accessing Group from another page and `#top` hash is set,&nbsp; show top of page (no hash).
       if (window.location.hash == "#top") {
         window.location.hash = ""
       } else {
-        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        // If URL contains a hash,&nbsp; scroll to target ID taking into account responsive offset.
         scrollToAnchor();
       }
     }
@@ -258,11 +258,11 @@
     let resizeTimer;
     $(window).resize(function() {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(fixScrollspy, 200);
+      resizeTimer = setTimeout(fixScrollspy,&nbsp; 200);
     });
 
     // Filter projects.
-    $('.projects-container').each(function(index, container) {
+    $('.projects-container').each(function(index,&nbsp; container) {
       let $container = $(container);
       let $section = $container.closest('section');
       let layout = 'masonry';
@@ -273,8 +273,8 @@
       $container.imagesLoaded(function() {
         // Initialize Isotope after all images have loaded.
         $container.isotope({
-          itemSelector: '.isotope-item',
-          layoutMode: layout,
+          itemSelector: '.isotope-item',&nbsp;
+          layoutMode: layout,&nbsp;
           filter: $section.find('.default-project-filter').text()
         });
         // Filter items when filter link is clicked.
@@ -291,7 +291,7 @@
     if ($('.pub-filters-select')) {
       filter_publications();
       // Useful for changing hash manually (e.g. in development):
-      // window.addEventListener('hashchange', filter_publications, false);
+      // window.addEventListener('hashchange',&nbsp; filter_publications,&nbsp; false);
     }
 
     // Load citation modal on 'Cite' click.
@@ -299,12 +299,12 @@
       e.preventDefault();
       let filename = $(this).attr('data-filename');
       let modal = $('#modal');
-      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+      modal.find('.modal-body').load( filename ,&nbsp; function( response,&nbsp; status,&nbsp; xhr ) {
         if ( status == 'error' ) {
           let msg = "Error: ";
           $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
         } else {
-          $('.js-download-cite').attr('href', filename);
+          $('.js-download-cite').attr('href',&nbsp; filename);
         }
       });
       modal.modal('show');

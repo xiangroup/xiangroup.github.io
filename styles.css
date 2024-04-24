@@ -12,22 +12,22 @@
  *  Core
  **************************************************/
 
-*,
-*::after,
+*,&nbsp;
+*::after,&nbsp;
 *::before {
   box-sizing: border-box;
 }
 
-.row:after,
+.row:after,&nbsp;
 .row:before {
   content: " ";
   display: table;
 }
 
 html {
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Merriweather',&nbsp; sans-serif;
   font-size: 14px;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -72,22 +72,22 @@ p {
 }
 
 /* Lists */
-ul, ol, dl {
+ul,&nbsp; ol,&nbsp; dl {
   margin-top: 0;
   margin-bottom: 2rem;
 }
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato',&nbsp; sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6, h7 {
-  font-family: 'Lato', sans-serif;
+h1,&nbsp; h2,&nbsp; h3,&nbsp; h4,&nbsp; h5,&nbsp; h6,&nbsp; h7 {
+  font-family: 'Lato',&nbsp; sans-serif;
   font-weight: 400;
   margin-bottom: 0.5rem;
   line-height: 1.25;
@@ -125,19 +125,19 @@ h4 {
   font-size: 1rem;
 }
 
-a,
+a,&nbsp;
 h3.article-title a:hover {
   color: #0095eb;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
-a:hover,
+a:hover,&nbsp;
 a:focus {
   color: #0095eb;
 }
 
-img,
+img,&nbsp;
 video {
   height: auto;
   max-width: 100%;
@@ -167,7 +167,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato',&nbsp; sans-serif;
   counter-increment: captions;
 }
 
@@ -178,9 +178,9 @@ figcaption h4 {
   margin: 0;
 }
 
-pre,
+pre,&nbsp;
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono',&nbsp; monospace;
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -188,15 +188,15 @@ code {
 pre {
   margin: 0 0 1rem 0;
   overflow: auto;
-  background-color: rgb(248, 248, 248); /* Match default highlight theme. */
-  border-color: rgb(248, 248, 248);
+  background-color: rgb(248,&nbsp; 248,&nbsp; 248); /* Match default highlight theme. */
+  border-color: rgb(248,&nbsp; 248,&nbsp; 248);
 }
 
 hr {
   border: 0;
   height: 1px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background-image: linear-gradient(to right,&nbsp; #ccc,&nbsp; #333,&nbsp; #ccc);
 }
 
 /* Quotes */
@@ -237,7 +237,7 @@ blockquote p:last-child {
   }
 }
 
-small,
+small,&nbsp;
 .small {
   font-size: .75em;
 }
@@ -338,7 +338,7 @@ a[data-fancybox] img {
 }
 
 .home-section {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255,&nbsp; 255,&nbsp; 255);
   padding: 60px 0 60px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -349,7 +349,7 @@ a[data-fancybox] img {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(249,&nbsp; 249,&nbsp; 249);
 }
 
 @media screen and (max-width: 768px) {
@@ -402,11 +402,11 @@ a[data-fancybox] img {
   font-size: 1.35rem;
 }
 
-.hero-overlay .hero-title,
-.hero-overlay .hero-lead,
+.hero-overlay .hero-title,&nbsp;
+.hero-overlay .hero-lead,&nbsp;
 .hero-overlay .btn {
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 4px rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.5);
 }
 
 .hero-overlay a {
@@ -440,7 +440,7 @@ a[data-fancybox] img {
   color: #333;
 }
 
-.dark .featurette,
+.dark .featurette,&nbsp;
 .dark .featurette h3 {
   color: #fff;
 }
@@ -482,7 +482,7 @@ a[data-fancybox] img {
 #profile .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0,0,0, 0.54);
+  color: rgba(0,&nbsp;0,&nbsp;0,&nbsp; 0.54);
   margin: 0px 0 10px 0;
 }
 
@@ -535,7 +535,7 @@ ul.ul-edu li .description p.course {
 
 ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.6);
 }
 
 /*************************************************
@@ -654,7 +654,7 @@ article {
   color: #888;
 }
 
-/* For article page only, not lists. */
+/* For article page only,&nbsp; not lists. */
 article .article-metadata {
   margin-bottom: 20px;
   line-height: 30px; /* Match share bar line height. */
@@ -678,7 +678,7 @@ article .article-metadata {
   content: '\00B7';
 }
 
-.article-style img,
+.article-style img,&nbsp;
 .article-style video {
   margin-left: auto;
   margin-right: auto;
@@ -687,7 +687,7 @@ article .article-metadata {
   padding: 0;
 }
 
-.article-style td img,
+.article-style td img,&nbsp;
 .article-style td video {
   margin-top: 0;
   margin-bottom: 0;
@@ -712,7 +712,7 @@ article .article-metadata {
 }
 
 .hr-light {
-  border-top: 1px solid rgba(0,0,0,.05);
+  border-top: 1px solid rgba(0,&nbsp;0,&nbsp;0,&nbsp;.05);
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -726,7 +726,7 @@ article .article-metadata {
  **************************************************/
 
 .pub-icon {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0,&nbsp; 0,&nbsp; 0,&nbsp; 0.54);
   font-size: 0.81em;
   padding-top: 6px;
 }
@@ -837,8 +837,8 @@ article .article-metadata {
 
 .card-simple {
   background: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  #border: 1px solid rgba(0,0,0,.09);
+  box-shadow: 0 1px 4px rgba(0,&nbsp;0,&nbsp;0,&nbsp;.04);
+  #border: 1px solid rgba(0,&nbsp;0,&nbsp;0,&nbsp;.09);
   border-radius: 3px;
   margin-top: 15px;
   padding: 13px 20px 10px 20px;
@@ -853,9 +853,9 @@ article .article-metadata {
 }
 
 .dark .card-simple {
-  background: rgb(40, 42, 54);
-  box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  border: 1px solid rgb(68, 71, 90);
+  background: rgb(40,&nbsp; 42,&nbsp; 54);
+  box-shadow: 0 1px 4px rgba(0,&nbsp;0,&nbsp;0,&nbsp;.04);
+  border: 1px solid rgb(68,&nbsp; 71,&nbsp; 90);
 }
 
 .card {
@@ -863,7 +863,7 @@ article .article-metadata {
   overflow: hidden;
   text-overflow: ellipsis;
   background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.2);
   transition: all 0.2s ease-out;
 }
 
@@ -923,7 +923,7 @@ article .article-metadata {
   left: 0;
   top: 50%;
   width: 100%;
-  transform: translate(0, -50%);
+  transform: translate(0,&nbsp; -50%);
   opacity: 0;
   transition: all 0.2s ease-out;
   font-family: 'FontAwesome';
@@ -934,7 +934,7 @@ article .article-metadata {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.2);
 }
 
 .card:hover .card-image.hover-overlay:before {
@@ -990,7 +990,7 @@ footer p {
   text-align: center;
 }
 
-.site-footer,
+.site-footer,&nbsp;
 footer a#back_to_top i {
   color: #899596;
 }
@@ -1004,10 +1004,10 @@ footer a#back_to_top i {
   background: #0095eb !important;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary.active,
-.btn-primary:visited,
+.btn-primary:hover,&nbsp;
+.btn-primary:active,&nbsp;
+.btn-primary.active,&nbsp;
+.btn-primary:visited,&nbsp;
 .open > .dropdown-toggle.btn-primary {
   background: #0095eb !important;
 }
@@ -1017,10 +1017,10 @@ footer a#back_to_top i {
   background: #fff !important;
 }
 
-.btn-light:hover,
-.btn-light:active,
+.btn-light:hover,&nbsp;
+.btn-light:active,&nbsp;
 .btn-light.active {
-  background: rgba(0,0,0,0.4) !important;
+  background: rgba(0,&nbsp;0,&nbsp;0,&nbsp;0.4) !important;
 }
 
 /*************************************************
@@ -1041,12 +1041,12 @@ footer a#back_to_top i {
   border-radius: 0 6px 6px 0;
 }
 
-.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:hover,&nbsp;
 .btn-toolbar .btn.btn-primary:focus {
   background-color: #0069c0 !important;
 }
 
-.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary:active,&nbsp;
 .btn-toolbar .btn.btn-primary.active {
   background-color: #6ec6ff !important;
 }
@@ -1103,11 +1103,11 @@ footer a#back_to_top i {
   color: #d9534f;
 }
 
-.btn-primary.btn-outline:hover,
-.btn-light.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
+.btn-primary.btn-outline:hover,&nbsp;
+.btn-light.btn-outline:hover,&nbsp;
+.btn-success.btn-outline:hover,&nbsp;
+.btn-info.btn-outline:hover,&nbsp;
+.btn-warning.btn-outline:hover,&nbsp;
 .btn-danger.btn-outline:hover {
   color: #fff !important;
 }
@@ -1122,14 +1122,14 @@ footer a#back_to_top i {
 
 .navbar-default {
   background: #fff;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,&nbsp;0,&nbsp;0,&nbsp;.11)
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
 
-.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:focus,&nbsp;
 .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
@@ -1138,8 +1138,8 @@ nav#navbar-main li {
   font-size: 18px;
 }
 
-.navbar-default .navbar-nav>li>a,
-.navbar-default .navbar-nav>a:focus,
+.navbar-default .navbar-nav>li>a,&nbsp;
+.navbar-default .navbar-nav>a:focus,&nbsp;
 .navbar-default .navbar-nav>a:hover {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
@@ -1158,15 +1158,15 @@ nav#navbar-main li {
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a,&nbsp;
+.navbar-default .navbar-nav>.active>a:focus,&nbsp;
 .navbar-default .navbar-nav>.active>a:hover {
   color: #0095eb;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
-.navbar-brand,
+.navbar-brand,&nbsp;
 .navbar-nav li a {
   height: inherit;
   line-height: 50px;
@@ -1196,15 +1196,15 @@ nav#navbar-main li {
   white-space: nowrap;
 }
 
-.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:focus,&nbsp;
 .dropdown-menu>li>a:hover {
   color: #0095eb;
   text-decoration: none;
   background-color: #fff;
 }
 
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a,&nbsp;
+.dropdown-menu > .active > a:focus,&nbsp;
 .dropdown-menu > .active > a:hover {
   color: #fff;
   text-decoration: none;
@@ -1212,9 +1212,9 @@ nav#navbar-main li {
   outline: 0;
 }
 
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a,&nbsp;
+.navbar-default .navbar-nav>.open>a:focus,&nbsp;
+.navbar-default .navbar-nav>.open>a:hover,&nbsp;
 .navbar-default .navbar-nav>.open>a:visited {
   color: #34495e !important;
   background-color: #fff !important;
@@ -1227,7 +1227,7 @@ nav#navbar-main li {
   color: #2b2b2b;
 }
 
-.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:focus,&nbsp;
 .navbar-default .navbar-brand:hover {
   color: #2b2b2b;
   background-color: transparent;
@@ -1238,7 +1238,7 @@ nav#navbar-main li {
     min-height: 50px !important;
   }
 
-  .navbar-brand,
+  .navbar-brand,&nbsp;
   .navbar-nav li a {
     height: inherit;
     line-height: 40px;
@@ -1255,7 +1255,7 @@ nav#navbar-main li {
     min-height: inherit;
   }
 
-  .navbar-left,
+  .navbar-left,&nbsp;
   .navbar-right {
     float: none !important;
   }
@@ -1314,14 +1314,14 @@ nav#navbar-main li {
     color: #34495e;
   }
 
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,&nbsp;
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: inherit;
     background-color: transparent;
   }
 
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,&nbsp;
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,&nbsp;
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
     color: #0095eb;
     background-color: transparent;
@@ -1343,11 +1343,11 @@ table {
   font-size: 0.93rem;
 }
 
-table > thead > tr > th,
-table > tbody > tr > th,
-table > tfoot > tr > th,
-table > thead > tr > td,
-table > tbody > tr > td,
+table > thead > tr > th,&nbsp;
+table > tbody > tr > th,&nbsp;
+table > tfoot > tr > th,&nbsp;
+table > thead > tr > td,&nbsp;
+table > tbody > tr > td,&nbsp;
 table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.43;
@@ -1360,11 +1360,11 @@ table > thead > tr > th {
   border-bottom: 2px solid #ddd;
 }
 
-table > caption + thead > tr:first-child > th,
-table > colgroup + thead > tr:first-child > th,
-table > thead:first-child > tr:first-child > th,
-table > caption + thead > tr:first-child > td,
-table > colgroup + thead > tr:first-child > td,
+table > caption + thead > tr:first-child > th,&nbsp;
+table > colgroup + thead > tr:first-child > th,&nbsp;
+table > thead:first-child > tr:first-child > th,&nbsp;
+table > caption + thead > tr:first-child > td,&nbsp;
+table > colgroup + thead > tr:first-child > td,&nbsp;
 table > thead:first-child > tr:first-child > td {
   border-top: 0;
 }
@@ -1378,13 +1378,13 @@ table table {
 }
 
 /* Table Striped */
-table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > td,&nbsp;
 table > tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9;
 }
 
 /* Table Hover */
-table > tbody > tr:hover > td,
+table > tbody > tr:hover > td,&nbsp;
 table > tbody > tr:hover > th {
   background-color: #e5e5e5;
 }
@@ -1424,15 +1424,15 @@ div.alert-warning p:first-child::before {
 }
 
 div.alert a {
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,&nbsp;255,&nbsp;255,&nbsp;0.9);
   text-decoration: none;
   border-bottom: solid 1px #e4e4e4;
-  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out,&nbsp; border-color 0.2s ease-in-out;
 }
 
 div.alert a:hover {
   border-bottom-color: transparent;
-  color: rgba(255,255,255,0.5) !important;
+  color: rgba(255,&nbsp;255,&nbsp;255,&nbsp;0.5) !important;
 }
 
 .alert-note {
@@ -1453,29 +1453,29 @@ div.alert a:hover {
  **************************************************/
 
 body.dark {
-  color: rgb(248, 248, 242);
+  color: rgb(248,&nbsp; 248,&nbsp; 242);
 }
 
-.dark h1,
-.dark h2,
-.dark h3,
-.dark h4,
-.dark h5,
-.dark h6,
+.dark h1,&nbsp;
+.dark h2,&nbsp;
+.dark h3,&nbsp;
+.dark h4,&nbsp;
+.dark h5,&nbsp;
+.dark h6,&nbsp;
 .dark h7 {
-  color: rgb(152, 166, 173);
+  color: rgb(152,&nbsp; 166,&nbsp; 173);
 }
 
-.dark pre,
+.dark pre,&nbsp;
 .dark code {
-  color: rgb(139, 233, 253);
-  background-color: rgb(68, 71, 90);
+  color: rgb(139,&nbsp; 233,&nbsp; 253);
+  background-color: rgb(68,&nbsp; 71,&nbsp; 90);
 
 }
 
 .dark pre {
-  background-color: rgb(68, 71, 90);
-  border-color: rgb(68, 71, 90);
+  background-color: rgb(68,&nbsp; 71,&nbsp; 90);
+  border-color: rgb(68,&nbsp; 71,&nbsp; 90);
 }
 
 .dark ul.share li a {
@@ -1483,19 +1483,19 @@ body.dark {
 }
 
 .dark table table {
-  background-color: rgb(40, 42, 54);
+  background-color: rgb(40,&nbsp; 42,&nbsp; 54);
 }
 
 /* Table Striped */
-.dark table > tbody > tr:nth-child(odd) > td,
+.dark table > tbody > tr:nth-child(odd) > td,&nbsp;
 .dark table > tbody > tr:nth-child(odd) > th {
-  background-color: rgb(50, 52, 64);
+  background-color: rgb(50,&nbsp; 52,&nbsp; 64);
 }
 
 /* Table Hover */
-.dark table > tbody > tr:hover > td,
+.dark table > tbody > tr:hover > td,&nbsp;
 .dark table > tbody > tr:hover > th {
-  background-color: rgb(60, 62, 74);
+  background-color: rgb(60,&nbsp; 62,&nbsp; 74);
 }
 
 .dark .article-title a {
@@ -1507,29 +1507,29 @@ body.dark {
 }
 
 .dark #profile .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.54);
+  color: rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; 0.54);
 }
 
 .dark ul.ul-edu li .description p.institution {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; 0.6);
 }
 
 .dark .pub-icon {
-  color: rgba(255, 255, 255, 0.54);
+  color: rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; 0.54);
 }
 
 .dark .talk-metadata {
-  color: rgba(255, 255, 255, 0.54);
+  color: rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; 0.54);
 }
 
-.dark .pager li > a, .pager li > span {
-  background-color: rgb(40, 42, 54);
+.dark .pager li > a,&nbsp; .pager li > span {
+  background-color: rgb(40,&nbsp; 42,&nbsp; 54);
   border: 1px solid #ddd;
 }
 
 .dark .card {
-  background: rgb(10, 12, 24);
-  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+  background: rgb(10,&nbsp; 12,&nbsp; 24);
+  box-shadow: 0 2px 4px 0 rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; 0.2);
 }
 
 .dark .card h4 a {
@@ -1546,12 +1546,11 @@ body.dark {
 }
 
 .dark .navbar-default {
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(255,&nbsp; 255,&nbsp; 255,&nbsp; .11);
   border-color: #070707;
 }
 
 .dark select {
-  background: rgb(40, 42, 54);
-  color: rgb(248, 248, 242);
+  background: rgb(40,&nbsp; 42,&nbsp; 54);
+  color: rgb(248,&nbsp; 248,&nbsp; 242);
 }
-
