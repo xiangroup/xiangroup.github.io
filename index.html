@@ -3,13 +3,33 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,&nbsp; initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.55.0" />
   <meta name="author" content="Xian Zhong">
 
-  
+  <style>
+    /* 设置容器为flex布局,&nbsp;使其内容水平居中 */
+    .image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* 设置左右两张图片的样式 */
+    .image-wrapper .side-images {
+        width: auto;
+        height: 150px;
+    }
+
+    /* 设置中间图片的样式 */
+    .image-wrapper .middle-image {
+        width: 40px;
+        height: 40px;
+        margin: 0 20px; /* 调整中间图片与两边图片的间距 */
+    }
+</style>
   
   
   
@@ -49,7 +69,7 @@
   
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,&nbsp;700%7cMerriweather%7cRoboto&#43;Mono">
   
   <link rel="stylesheet" href="/styles.css">
   
@@ -57,11 +77,11 @@
   
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-115873583-1', 'auto');
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
+      ga('create',&nbsp; 'UA-115873583-1',&nbsp; 'auto');
+      ga('require',&nbsp; 'eventTracker');
+      ga('require',&nbsp; 'outboundLinkTracker');
+      ga('require',&nbsp; 'urlChangeTracker');
+      ga('send',&nbsp; 'pageview');
     </script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
     
@@ -70,8 +90,8 @@
   
 
   
-  <link rel="alternate" href="index.xml" type="application/rss+xml" title="Xian Zhong&#39;s Homepage">
-  <link rel="feed" href="index.xml" type="application/rss+xml" title="Xian Zhong&#39;s Homepage">
+  <link rel="alternate" href="index.xml" type="application/rss+xml" title="Xian Zhong&#39;s Group">
+  <link rel="feed" href="index.xml" type="application/rss+xml" title="Xian Zhong&#39;s Group">
   
 
   <link rel="manifest" href="/site.webmanifest">
@@ -82,9 +102,9 @@
 
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Xian Zhong&#39;s Homepage">
+  <meta property="og:site_name" content="Xian Zhong&#39;s Group">
   <meta property="og:url" content="">
-  <meta property="og:title" content="Xian Zhong&#39;s Homepage">
+  <meta property="og:title" content="Xian Zhong&#39;s Group">
   <meta property="og:description" content="Professor">
   <meta property="og:locale" content="en-us">
   
@@ -93,7 +113,7 @@
 
   
 
-  <title>Xian Zhong&#39;s Homepage</title>
+  <title>Xian Zhong&#39;s Group</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
@@ -112,7 +132,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/">Xian Zhong&#39;s Homepage</a>
+      <a class="navbar-brand" href="/">Xian Zhong&#39;s Group</a>
     </div>
 
     
@@ -202,7 +222,7 @@
 
 
 
-<span id="homepage" style="display: none"></span>
+<span id="Group" style="display: none"></span>
 
 
   
@@ -231,7 +251,7 @@
 
       <div class="portrait-title">
         <h2 itemprop="name">Xian Zhong</h2>
-        <h3 itemprop="jobTitle">A Professor with the School of Computer Science and Artificial Intelligence, WHUT and a Visiting Scholar with the ROSE@EEE, NTU</h3>
+        <h3 itemprop="jobTitle">A Professor with the School of Computer Science and Artificial Intelligence,&nbsp; WHUT and a Visiting Scholar with the ROSE@EEE,&nbsp; NTU</h3>
 
         
         
@@ -278,7 +298,7 @@
 
     
 
-<h1 id="biography">Biography</h1>
+<h1 id="xian group">Xian Group</h1>
 <style>
   .red-letter {
       color: red;
@@ -291,35 +311,42 @@
   <span class="red-letter">N</span>euromorphic Computing (<span class="red-letter">N</span>)
 </h2>
 
-<p>Xian Zhong(钟 忺) is currently a Professor and Ph.D. Supervisor with the School of Computer Science and Artificial Intelligence at Wuhan University of Technology (WHUT). He received Bachelor (’03–’07)
+<p>Xian Zhong (钟忺) is currently a Professor and Ph.D. Supervisor with the School of Computer Science and Artificial Intelligence at Wuhan University of Technology (WHUT). He received Bachelor (’03–’07)
   degree in the School of Computer Science from Wuhan University (WHU), and Master (’07–’09) and Ph.D. (’09–’13) degrees in the School of Computer Science and Technology from Huazhong
   University of Science and Technology (HUST). He served as a Visiting Scholar (’21–’22) with the School of Computer Science at Peking University (PKU) under the supervision of Prof. Tiejun
   Huang. Additionally, he is currently a Visiting Scholar (’23–Now) with the School of Electrical and Electronic Engineering at Nanyang Technological University (NTU) under the supervision of Prof.
-  Alex Chichung Kot.</p>
+  Alex Chichung Kot.
+
+</p>
+
+<div class="image-wrapper">
+  <!-- 第一张图片 -->
+  <img src="img/logo(2).png" alt="First Image" class="side-images">
+  <!-- 中间的图片 -->
+  <img src="img/OIP (1).png" alt="Second Image" class="middle-image">
+  <!-- 第三张图片 -->
+  <img src="img/logo(3).png" alt="Third Image" class="side-images">
+
+
+
+
+
+</div>
+
 
 
     <div class="row">
 
       
       <div class="col-sm-12">
-        <h3>Awards</h3>
+        <h3>News🔥</h3>
         <ul class="ul-interests">
           
-          <li>First Prize ’12 Hubei Provincial Science and Technology Progress Award.</li>
+          <li>ieee icip workshop on <a href="https://ai4ipot.github.io/" itemprop="url">https://ai4ipot.github.io/</a>.</li>
           
-          <li>Third Prize ’12 Hubei Provincial Technological Invention Award.</li>
+
           
-          <li>Third Prize ’13 Hubei Provincial Science and Technology Progress Award.</li>
           
-          <li>First Prize ’13 Wuhan Science and Technology Progress Award.</li>
-          
-          <li>Second Prize ’16 Wuhan Science and Technology Progress Award.</li>
-          
-          <li>First Prize ’18 Hubei Provincial Colleges and Universities Teaching Achievement Award.</li>
-          
-          <li>First Prize ’23 Hubei Provincial Colleges and Universities Teaching Achievement Award.</li>
-          
-          <li>ICASSP ’23 Outstanding Reviewer Recognition.</li>
           
         </ul>
       </div>
@@ -352,10 +379,10 @@
     
   </div>
   
-  <h3>&ensp;&ensp;&ensp;2024</h3>
+
 
   <div class="col-xs-12 col-md-8">
-    
+    <h3>2024</h3>
 
   
     
@@ -365,7 +392,7 @@
     
     
       
-        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
 
   
   
@@ -377,12 +404,12 @@
 
   <div class="pub-authors" itemprop="author">
     
-    Xian Zhong, Xiyu Han, Xuemei Jia, Wenxin Huang, Wenxuan Liu, Shuaipeng Su, Xiaohan Yu, Mang Ye
+    Xian Zhong,&nbsp;Xiyu Han, &nbsp;Xuemei Jia, &nbsp;Wenxin Huang,&nbsp;Wenxuan Liu,&nbsp;Shuaipeng Su,&nbsp;Xiaohan Yu,&nbsp;Mang Ye,&nbsp;Mang Ye
     
   </div>
 
   <div class="pub-publication">
-    Pattern Recognit ,
+    Pattern Recognit ,&nbsp;
     April 2024</div>
 
   <div class="pub-links">
@@ -432,12 +459,12 @@
 
 <div class="pub-authors" itemprop="author">
 
-Huilin Zhu,Jingling Yuan,Xian Zhong,Liang Liao,Zheng Wang
+Huilin Zhu,&nbsp;jingling yuan,&nbsp;Xian Zhong,&nbsp;Liang Liao,&nbsp;Zheng Wang
 
 </div>
 
 <div class="pub-publication">
-  IEEE Transactions on Multimedia,
+  IEEE Trans. Multim,&nbsp;
   January 2024</div>
 
 <div class="pub-links">
@@ -470,315 +497,7 @@ PDF
 </div>  
 
 </div>
-
-<h3>&ensp;&ensp;2023</h3>
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://www.sciencedirect.com/science/article/pii/S0140366423001214?via%3Dihub" itemprop="url">Generating live commentary for marine traffic scenarios based on multi-model learning</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-Rui Zhang, Xiaojie Li, Yifan Zhuo, Kezhong Liu, Xian Zhong, Shaohua Wan
-
-</div>
-
-<div class="pub-publication">
-  Computer Communications,
-  May 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0140366423001214?via%3Dihub" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://www.sciencedirect.com/science/article/pii/S1047320322002395?via%3Dihub" itemprop="url">SCPNet: Self-constrained parallelism network for keypoint-based lightweight object detection</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong, Mengdie Wang, Wenxuan Liu, Jingling Yuan, Wenxin Huang
-</div>
-
-<div class="pub-publication">
-  Journal of Visual Communication and Image Representation,
-  May 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S1047320322002395?via%3Dihub" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10122859" itemprop="url">Dual-Recommendation Disentanglement Network for View Fuzz in Action Recognition</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Wenxuan Liu,Xian Zhong,Zhuo Zhou,Kui Jiang,Zheng Wang,Chia-Wen Lin
-
-</div>
-
-<div class="pub-publication">
-  IEEE Transactions on Image Processing,
-  May 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10122859" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/51cloud/DRDN" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10130745" itemprop="url">Win-Win by Competition: Auxiliary-Free Cloth-Changing Person Re-Identification</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-  Zhengwei Yang,Xian Zhong; Zhun Zhong,Hong Liu,Zheng Wang,Shin'Ichi Satoh
-
-</div>
-
-<div class="pub-publication">
-  IEEE Transactions on Image Processing ,
-  May 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10130745" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/BoomShakaY/Win-CCReID" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10103218" itemprop="url">Visual Exposes You: Pedestrian Trajectory Prediction Meets Visual Intention</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong,Xu Yan,Zhengwei Yang,Wenxin Huang,Kui Jiang,Ryan Wen Liu,Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  IEEE Transactions on Intelligent Transportation Systems,
-  April 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10103218" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9678031" itemprop="url">Graph Complemented Latent Representation for Few-Shot Image Classification</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-  Xian Zhong,Cheng Gu,Mang Ye,Wenxin Huang,Chia-Wen Lin
-
-</div>
-
-<div class="pub-publication">
-  IEEE Transactions on Multimedia,
-  April 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9678031" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
+<h3>2023</h3>
       
     
       
@@ -794,13 +513,13 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Wenxin Huang,Xuemei Jia,Xian Zhong,Xiao Wang,Kui Jiang,Zheng Wang
+  Wenxin Huang,&nbsp;Xuemei Jia,&nbsp;Xian Zhong,&nbsp;Xiao Wang,&nbsp;Kui Jiang,&nbsp;Zheng Wang
 
 
 </div>
 
 <div class="pub-publication">
-  ACM Transactions on Multimedia Computing, Communications, and Applications,
+  ACM Trans. Multim. Comput. Commun. Appl,&nbsp;
   February 2023</div>
 
 <div class="pub-links">
@@ -840,276 +559,18 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
-<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25484" itemprop="url">Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong,Zipeng Li,Shuqin Chen,Kui Jiang,Chen Chen,Mang Ye
-
-</div>
-
-<div class="pub-publication">
-  Proceedings of the AAAI Conference on Artificial Intelligence,
-  June 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ojs.aaai.org/index.php/AAAI/article/view/25484" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/lzp870/RSFD" target="_blank" rel="noopener">
-  Code
-  </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10203842" itemprop="url">Good is Bad: Causality Inspired Cloth-debiasing for Cloth-changing Person Re-identification</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Zhengwei Yang,Meng Lin,Xian Zhong,Yu Wu,Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),August 2023</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10203842" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/BoomShakaY/AIM-CCReID" target="_blank" rel="noopener">
-  Code
-  </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10095662" itemprop="url">Background Disturbance Mitigation for Video Captioning Via Entity-Action Relocation</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Zipeng Li,Xian Zhong,Shuqin Chen,Wenxuan Liu,Wenxin Huang,Lin Li
-
-</div>
-
-<div class="pub-publication">
-  ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),May 2023
-</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10095662" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10095210" itemprop="url">Bat: Bi-Alignment Based On Transformation in Multi-Target Domain Adaptation for Semantic Segmentation</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong,Wei Li,Liang Liao; Jing Xiao,Wenxuan Liu,Wenxin Huang,Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),May 2023
-</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10095210" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/10222496" itemprop="url">Implicit Attention-Based Cross-Modal Collaborative Learning for Action Recognition</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Jianghao Zhang,Xian Zhong,Wenxuan Liu,Kui Jiang,Zhengwei Yang,Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  2023 IEEE International Conference on Image Processing (ICIP),May 2023
-</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10222496" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
 <a href="https://dl.acm.org/doi/10.1145/3581783.3611793" itemprop="url">DAOT: Domain-Agnostically Aligned Optimal Transport for Domain-Adaptive Crowd Counting</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-Huilin Zhu, Jingling Yuan, Xian Zhong, Zhengwei Yang, Zheng Wang, Shengfeng He
+Huilin Zhu,&nbsp; Jingling Yuan,&nbsp; Xian Zhong,&nbsp; Zhengwei Yang,&nbsp; Zheng Wang,&nbsp; Shengfeng He
 
 </div>
 
 <div class="pub-publication">
-  MM '23: Proceedings of the 31st ACM International Conference on Multimedia,October 2023</div>
+  ACM Multimedia,&nbsp;October 2023</div>
 
 <div class="pub-links">
 
@@ -1159,7 +620,7 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Kui Jiang,Wenxuan Liu,Zheng Wang,Xian Zhong,Junjun Jiang,Chia-Wen Lin
+  Kui Jiang,&nbsp;Wenxuan Liu,&nbsp;Zheng Wang,&nbsp;Xian Zhong,&nbsp;Junjun Jiang,&nbsp;Chia-Wen Lin
 
 
   
@@ -1168,7 +629,7 @@ PDF
 </div>
 
 <div class="pub-publication">
-  MM '23: Proceedings of the 31st ACM International Conference on Multimedia,October 2023</div>
+ACM Multimedia,&nbsp;October 2023</div>
 
 <div class="pub-links">
 
@@ -1198,10 +659,731 @@ PDF
 
 </div>
 
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
 
 
 
-<h3>2022</h3> 
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10203842" itemprop="url">Good is Bad: Causality Inspired Cloth-debiasing for Cloth-changing Person Re-identification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Zhengwei Yang,&nbsp;Meng Lin,&nbsp;Xian Zhong,&nbsp;Yu Wu,&nbsp;Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+  CVPR,&nbsp;August 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10203842" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/BoomShakaY/AIM-CCReID" target="_blank" rel="noopener">
+  Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10222001" itemprop="url">A Clearer Image: Improving Object Detection in Real Rainy Conditions with Two-Stage Processing</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Mingxuan Yang,&nbsp;Xiyu Han,&nbsp;Xianyao Ping,&nbsp;Zipeng Li,&nbsp;Jing Xiao
+</div>
+
+<div class="pub-publication">
+  ICMEW,&nbsp;August 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10222001" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10221986" itemprop="url">Real Rainy Scene Analysis: A Dual-Module Benchmark for Image Deraining and Segmentation</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Shilei Zhao,&nbsp;Wenxin Huang,&nbsp;Mingxuan Yang,&nbsp;Wenxuan Liu
+</div>
+
+<div class="pub-publication">
+  ICMEW,&nbsp;August 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10221986" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25484" itemprop="url">Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp;Zipeng Li,&nbsp;Shuqin Chen,&nbsp;Kui Jiang,&nbsp;Chen Chen,&nbsp;Mang Ye
+
+</div>
+
+<div class="pub-publication">
+ AAAI,&nbsp;
+  June 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ojs.aaai.org/index.php/AAAI/article/view/25484" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/lzp870/RSFD" target="_blank" rel="noopener">
+  Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://www.sciencedirect.com/science/article/pii/S0140366423001214?via%3Dihub" itemprop="url">Generating live commentary for marine traffic scenarios based on multi-model learning</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+Rui Zhang,&nbsp; Xiaojie Li,&nbsp; Yifan Zhuo,&nbsp; Kezhong Liu,&nbsp; Xian Zhong,&nbsp; Shaohua Wan
+
+</div>
+
+<div class="pub-publication">
+  Comput. Commun,&nbsp;
+  May 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0140366423001214?via%3Dihub" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://www.sciencedirect.com/science/article/pii/S1047320322002395?via%3Dihub" itemprop="url">SCPNet: Self-constrained parallelism network for keypoint-based lightweight object detection</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Mengdie Wang,&nbsp; Wenxuan Liu,&nbsp; Jingling Yuan,&nbsp; Wenxin Huang
+</div>
+
+<div class="pub-publication">
+  JVCI,&nbsp;
+  May 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S1047320322002395?via%3Dihub" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10122859" itemprop="url">Dual-Recommendation Disentanglement Network for View Fuzz in Action Recognition</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Wenxuan Liu,&nbsp;Xian Zhong,&nbsp;Zhuo Zhou,&nbsp;Kui Jiang,&nbsp;Zheng Wang,&nbsp;Chia-Wen Lin
+
+</div>
+
+<div class="pub-publication">
+  IEEE Trans. Image Process,&nbsp;
+  May 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10122859" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/51cloud/DRDN" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10130745" itemprop="url">Win-Win by Competition: Auxiliary-Free Cloth-Changing Person Re-Identification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+  Zhengwei Yang,&nbsp;Xian Zhong; Zhun Zhong,&nbsp;Hong Liu,&nbsp;Zheng Wang,&nbsp;Shin'Ichi Satoh
+
+</div>
+
+<div class="pub-publication">
+  IEEE Trans. Image Process,&nbsp;
+  May 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10130745" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/BoomShakaY/Win-CCReID" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10095662" itemprop="url">Background Disturbance Mitigation for Video Captioning Via Entity-Action Relocation</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Zipeng Li,&nbsp;Xian Zhong,&nbsp;Shuqin Chen,&nbsp;Wenxuan Liu,&nbsp;Wenxin Huang,&nbsp;Lin Li
+
+</div>
+
+<div class="pub-publication">
+ICASSP,&nbsp;May 2023
+</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10095662" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10095210" itemprop="url">Bat: Bi-Alignment Based On Transformation in Multi-Target Domain Adaptation for Semantic Segmentation</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp;Wei Li,&nbsp;Liang Liao; Jing Xiao,&nbsp;Wenxuan Liu,&nbsp;Wenxin Huang,&nbsp;Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+ICASSP,&nbsp;May 2023
+</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10095210" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10222496" itemprop="url">Implicit Attention-Based Cross-Modal Collaborative Learning for Action Recognition</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Jianghao Zhang,&nbsp;Xian Zhong,&nbsp;Wenxuan Liu,&nbsp;Kui Jiang,&nbsp;Zhengwei Yang,&nbsp;Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+ICIP,&nbsp;May 2023
+</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10222496" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/10103218" itemprop="url">Visual Exposes You: Pedestrian Trajectory Prediction Meets Visual Intention</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp;Xu Yan,&nbsp;Zhengwei Yang,&nbsp;Wenxin Huang,&nbsp;Kui Jiang,&nbsp;Ryan Wen Liu,&nbsp;Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+  IEEE Trans. Intell. Transp. Syst,&nbsp;
+  April 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/10103218" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9678031" itemprop="url">Graph Complemented Latent Representation for Few-Shot Image Classification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+  Xian Zhong,&nbsp;Cheng Gu,&nbsp;Mang Ye,&nbsp;Wenxin Huang,&nbsp;Chia-Wen Lin
+
+</div>
+
+<div class="pub-publication">
+  IEEE Trans. Multim,&nbsp;
+  April 2023</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9678031" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+ 
+</div>
+<h3>2022</h3>
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://www.mdpi.com/2079-9292/11/3/454" itemprop="url">Visible-Infrared Person Re-Identification: A Comprehensive Survey and a New Setting</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Huantao Zheng,&nbsp;Xian Zhong,&nbsp;Wenxin Huang,&nbsp;Kui Jiang,&nbsp;Wenxuan Liu,&nbsp;Zheng Wang 
+
+</div>
+
+<div class="pub-publication">
+  Electronics,&nbsp;
+  February 2022 
+</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9987642" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 </div>
 
@@ -1220,12 +1402,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Wenxuan Liu,Xian Zhong,Xuemei Jia,Kui Jiang,Chia-Wen Lin
+	Wenxuan Liu,&nbsp;Xian Zhong,&nbsp;Xuemei Jia,&nbsp;Kui Jiang,&nbsp;Chia-Wen Lin
 
 </div>
 
 <div class="pub-publication">
-  IEEE Signal Processing Letters,
+  IEEE Signal Process. Lett,&nbsp;
   December 2022 
 </div>
 
@@ -1266,19 +1448,19 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9399508" itemprop="url">Grayscale Enhancement Colorization Network for Visible-Infrared Person Re-Identification</a>
+<a href="https://dl.acm.org/doi/10.1145/3503161.3548298" itemprop="url">Fine-Grained Fragment Diffusion for Cross Domain Crowd Counting</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Tianyou Lu, Wenxin Huang, Mang Ye, Xuemei Jia, Chia-Wen Lin
+	Huilin Zhu,&nbsp; Jingling Yuan,&nbsp; Zhengwei Yang,&nbsp; Xian Zhong,&nbsp; Zheng Wang
 
 </div>
 
 <div class="pub-publication">
-  IEEE Transactions on Circuits and Systems for Video Technology,
-  April 2022</div>
+  ACM Multimedia,&nbsp;
+  October 2022</div>
 
 <div class="pub-links">
 
@@ -1286,7 +1468,269 @@ PDF
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9399508" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://dl.acm.org/doi/10.1145/3503161.3548298" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9945387" itemprop="url">Global Temporal Attention Optimization for Human Trajectory Prediction</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xu Yan,&nbsp; Xian Zhong,&nbsp; Zhengwei Yang,&nbsp; Rui Zhang,&nbsp; Wenxin Huang,&nbsp; Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+  SMC,&nbsp;
+  October 2022</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9945387" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9859782" itemprop="url">Graph-Based Structural Attributes for Vehicle Re-Identification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+	Rongbo Zhang,&nbsp; Xian Zhong,&nbsp; Xiao Wang,&nbsp; Wenxin Huang,&nbsp; Wenxuan Liu,&nbsp; Shilei Zhao
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  August 2022</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859782" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href=" https://github.com/HappyBoBo0331/GSAN" target="_blank" rel="noopener">
+ Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9859743" itemprop="url">Visual-Aware Attention Dual-Stream Decoder for Video Captioning</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+	Zhixin Sun,&nbsp;Shuqin Chen,&nbsp;Luo Zhong
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  August 2022</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859782" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href=" https://github.com/HappyBoBo0331/GSAN" target="_blank" rel="noopener">
+ Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9859851" itemprop="url">Attentive Decoupling Network for Cloth-Changing Re-Identification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+	Zhengwei Yang,&nbsp; Xian Zhong,&nbsp; Hong Liu,&nbsp; Zhun Zhong,&nbsp; Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  July 2022</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859851" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9859882" itemprop="url">Dual-Scale Alignment-Based Transformer on Linguistic Skeleton Tags for Non-Autoregressive Video Captioning</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Yi Zhang,&nbsp; Shuqin Chen,&nbsp; Zhixin Sun,&nbsp; Huantao Zheng,&nbsp; Kui Jiang
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  July 2022</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859882" target="_blank" rel="noopener">
 PDF
 </a>
 
@@ -1323,12 +1767,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Xuemei Jia, Xian Zhong, Mang Ye, Wenxuan Liu, Wenxin Huang
+	Xuemei Jia,&nbsp; Xian Zhong,&nbsp; Mang Ye,&nbsp; Wenxuan Liu,&nbsp; Wenxin Huang
 
 </div>
 
 <div class="pub-publication">
-  IEEE Transactions on Image Processing,
+  IEEE Trans. Image Process,&nbsp;
   June 2022</div>
 
 <div class="pub-links">
@@ -1374,12 +1818,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Zhuo Zhou, Wenxuan Liu, Kui Jiang, Xuemei Jia, Wenxin Huang, Zheng Wang
+  Xian Zhong,&nbsp; Zhuo Zhou,&nbsp; Wenxuan Liu,&nbsp; Kui Jiang,&nbsp; Xuemei Jia,&nbsp; Wenxin Huang,&nbsp; Zheng Wang
 
 </div>
 
 <div class="pub-publication">
-  ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),
+  ICASSP,&nbsp;
   May 2022</div>
 
 <div class="pub-links">
@@ -1392,112 +1836,8 @@ PDF
 PDF
 </a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9859851" itemprop="url">Attentive Decoupling Network for Cloth-Changing Re-Identification</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Zhengwei Yang, Xian Zhong, Hong Liu, Zhun Zhong, Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  2022 IEEE International Conference on Multimedia and Expo (ICME),
-  July 2022</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859851" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9859782" itemprop="url">Graph-Based Structural Attributes for Vehicle Re-Identification</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Rongbo Zhang, Xian Zhong, Xiao Wang, Wenxin Huang, Wenxuan Liu, Shilei Zhao
-
-</div>
-
-<div class="pub-publication">
-  2022 IEEE International Conference on Multimedia and Expo (ICME),
-  August 2022</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859782" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href=" https://github.com/HappyBoBo0331/GSAN" target="_blank" rel="noopener">
- Code
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/xiangroup/SlowFast-cb" target="_blank" rel="noopener">
+  Code
   </a>
 
 
@@ -1525,19 +1865,19 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9859882" itemprop="url">Dual-Scale Alignment-Based Transformer on Linguistic Skeleton Tags for Non-Autoregressive Video Captioning</a>
+<a href="https://ieeexplore.ieee.org/document/9399508" itemprop="url">Grayscale Enhancement Colorization Network for Visible-Infrared Person Re-Identification</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Yi Zhang, Shuqin Chen, Zhixin Sun, Huantao Zheng, Kui Jiang
+  Xian Zhong,&nbsp; Tianyou Lu,&nbsp; Wenxin Huang,&nbsp; Mang Ye,&nbsp; Xuemei Jia,&nbsp; Chia-Wen Lin
 
 </div>
 
 <div class="pub-publication">
-  2022 IEEE International Conference on Multimedia and Expo (ICME),
-  July 2022</div>
+  IEEE Trans. Circuits Syst. Video Technol,&nbsp;
+  April 2022</div>
 
 <div class="pub-links">
 
@@ -1545,7 +1885,7 @@ PDF
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9859882" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9399508" target="_blank" rel="noopener">
 PDF
 </a>
 
@@ -1565,6 +1905,12 @@ PDF
 
 </div>
 
+
+
+
+
+
+
 </div>
 
       
@@ -1582,7 +1928,7 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Shidong Tu, Xianzheng Ma, Kui Jiang, Wenxin Huang, Zheng Wang
+  Xian Zhong,&nbsp; Shidong Tu,&nbsp; Xianzheng Ma,&nbsp; Kui Jiang,&nbsp; Wenxin Huang,&nbsp; Zheng Wang
 
 </div>
 
@@ -1620,56 +1966,7 @@ PDF
 
 </div>
 
-</div>
 
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://dl.acm.org/doi/10.1145/3503161.3548298" itemprop="url">Fine-Grained Fragment Diffusion for Cross Domain Crowd Counting</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Huilin Zhu, Jingling Yuan, Zhengwei Yang, Xian Zhong, Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  MM '22: Proceedings of the 30th ACM International Conference on Multimedia,
-  October 2022</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://dl.acm.org/doi/10.1145/3503161.3548298" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
 
 
 </div>
@@ -1689,12 +1986,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Xuemei Jia, Xian Zhong, Mang Ye, Wenxuan Liu, Wenxin Huang, Shilei Zhao
+	Xuemei Jia,&nbsp; Xian Zhong,&nbsp; Mang Ye,&nbsp; Wenxuan Liu,&nbsp; Wenxin Huang,&nbsp; Shilei Zhao
 
 </div>
 
 <div class="pub-publication">
-  MultiMedia Modeling,
+  MMM,&nbsp;
   March 2022</div>
 
 <div class="pub-links">
@@ -1740,12 +2037,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Jian He, Xian Zhong, Jingling Yuan, Ming Tan, Shilei Zhao, Luo Zhong
+	Jian He,&nbsp; Xian Zhong,&nbsp; Jingling Yuan,&nbsp; Ming Tan,&nbsp; Shilei Zhao,&nbsp; Luo Zhong
 
 </div>
 
 <div class="pub-publication">
-  MultiMedia Modeling,
+  MMM,&nbsp;
   March 2022</div>
 
 <div class="pub-links">
@@ -1775,368 +2072,7 @@ PDF
 </div>
 
 </div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9945387" itemprop="url">Global Temporal Attention Optimization for Human Trajectory Prediction</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xu Yan, Xian Zhong, Zhengwei Yang, Rui Zhang, Wenxin Huang, Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC),
-  October 2022</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9945387" target="_blank" rel="noopener">
-PDF
-</a>
-
-
 <h3>2021</h3> 
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://www.sciencedirect.com/science/article/pii/S1047320321000869?via%3Dihub" itemprop="url">Attention-guided image captioning with adaptive global and local feature fusion</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong, Guozhang Nie, Wenxin Huang, Wenxuan Liu, Bo Ma, Chia-Wen Lin
-
-</div>
-
-<div class="pub-publication">
-  Journal of Visual Communication and Image Representation,
-  July 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S1047320321000869?via%3Dihub" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://link.springer.com/chapter/10.1007/978-3-030-86383-8_54" itemprop="url">Modeling Context-Guided Visual and Linguistic Semantic Feature for Video Captioning</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Zhixin Sun, Xian Zhong, Shuqin Chen, Wenxuan Liu, Duxiu Feng, Lin Li
-
-</div>
-
-<div class="pub-publication">
-  Artificial Neural Networks and Machine Learning – ICANN 2021,
-  September 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://link.springer.com/chapter/10.1007/978-3-030-86383-8_54" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9415107/" itemprop="url">Part-Aligned Network with Background for Misaligned Person Search</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong, Yiting Liu, Wenxin Huang, Xiao Wang, Bo Ma, Jingling Yuan
-
-</div>
-
-<div class="pub-publication">
-  ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),
-  June 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9415107/" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9428411" itemprop="url">Person Retrieval in Physical World</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Wenxin Huang, Dongyang Li, Ruimin Hu, Chao Liang, Xian Zhong
-
-</div>
-
-<div class="pub-publication">
-  2021 IEEE International Conference on Multimedia and Expo (ICME),
-  July 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9428411" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9428380" itemprop="url">Auxiliary Bi-Level Graph Representation for Cross-Modal Image-Text Retrieval</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-	Xian Zhong, Zhengwei Yang, Mang Ye, Wenxin Huang, Jingling Yuan, Chia-Wen Lin
-
-</div>
-
-<div class="pub-publication">
-  2021 IEEE International Conference on Multimedia and Expo (ICME),
-  June 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9428380" target="_blank" rel="noopener">
-PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://dl.acm.org/doi/10.1145/3474085.3475654" itemprop="url">Unsupervised Vehicle Search in the Wild: A New Benchmark</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong, Shilei Zhao, Xiao Wang, Kui Jiang, Wenxuan Liu, Wenxin Huang, Zheng Wang
-
-</div>
-
-<div class="pub-publication">
-  MM '21: Proceedings of the 29th ACM International Conference on Multimedia,
-  October 2021</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://dl.acm.org/doi/10.1145/3474085.3475654" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="Https://github.com/zsl1997/VSWc" target="_blank" rel="noopener">
-  Code
-  </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-</div>
-
       
     
       
@@ -2152,12 +2088,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Jun Zhang, Xian Zhong, Jingling Yuan, Shilei Zhao, Rongbo Zhang, Duxiu Feng, Luo Zhong
+  Jun Zhang,&nbsp; Xian Zhong,&nbsp; Jingling Yuan,&nbsp; Shilei Zhao,&nbsp; Rongbo Zhang,&nbsp; Duxiu Feng,&nbsp; Luo Zhong
 
 </div>
 
 <div class="pub-publication">
-  MMAsia '21: Proceedings of the 3rd ACM International Conference on Multimedia in Asia,
+  MMAsia,&nbsp;
   December 2021</div>
 
 <div class="pub-links">
@@ -2203,12 +2139,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Yuze Tian, Xian Zhong, Wenxuan Liu, Xuemei Jia, Shilei Zhao, Mang Ye
+	Yuze Tian,&nbsp; Xian Zhong,&nbsp; Wenxuan Liu,&nbsp; Xuemei Jia,&nbsp; Shilei Zhao,&nbsp; Mang Ye
 
 </div>
 
 <div class="pub-publication">
-  PRICAI 2021: Trends in Artificial Intelligence,
+  PRICAI,&nbsp;
   November 2021</div>
 
 <div class="pub-links">
@@ -2254,12 +2190,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Lu Xu, Xian Zhong, Wenxuan Liu, Shilei Zhao, Zhengwei Yang, Luo Zhong
+	Lu Xu,&nbsp; Xian Zhong,&nbsp; Wenxuan Liu,&nbsp; Shilei Zhao,&nbsp; Zhengwei Yang,&nbsp; Luo Zhong
 
 </div>
 
 <div class="pub-publication">
-  PRICAI 2021: Trends in Artificial Intelligence,
+  PRICAI,&nbsp;
   November 2021</div>
 
 <div class="pub-links">
@@ -2288,7 +2224,58 @@ PDF
 
 </div>
 
-<h3>2020</h3>
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://dl.acm.org/doi/10.1145/3474085.3475654" itemprop="url">Unsupervised Vehicle Search in the Wild: A New Benchmark</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Shilei Zhao,&nbsp; Xiao Wang,&nbsp; Kui Jiang,&nbsp; Wenxuan Liu,&nbsp; Wenxin Huang,&nbsp; Zheng Wang
+
+</div>
+
+<div class="pub-publication">
+  ACM Multimedia,&nbsp;
+  October 2021</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://dl.acm.org/doi/10.1145/3474085.3475654" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="Https://github.com/zsl1997/VSWc" target="_blank" rel="noopener">
+  Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 </div>
 
@@ -2301,19 +2288,19 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9053478" itemprop="url">Multi-Scale Residual Network for Image Classification</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-030-86383-8_54" itemprop="url">Modeling Context-Guided Visual and Linguistic Semantic Feature for Video Captioning</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Oubo Gong, Wenxin Huang, Jingling Yuan, Bo Ma, Ryan Wen Liu
+	Zhixin Sun,&nbsp; Xian Zhong,&nbsp; Shuqin Chen,&nbsp; Wenxuan Liu,&nbsp; Duxiu Feng,&nbsp; Lin Li
 
 </div>
 
 <div class="pub-publication">
-  ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),
-  May 2020</div>
+  ICANN,&nbsp;
+  September 2021</div>
 
 <div class="pub-links">
 
@@ -2321,7 +2308,7 @@ PDF
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9053478" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://link.springer.com/chapter/10.1007/978-3-030-86383-8_54" target="_blank" rel="noopener">
 PDF
 </a>
 
@@ -2352,18 +2339,229 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
+<a href="https://www.sciencedirect.com/science/article/pii/S1047320321000869?via%3Dihub" itemprop="url">Attention-guided image captioning with adaptive global and local feature fusion</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Guozhang Nie,&nbsp; Wenxin Huang,&nbsp; Wenxuan Liu,&nbsp; Bo Ma,&nbsp; Chia-Wen Lin
+
+</div>
+
+<div class="pub-publication">
+  J. Vis. Commun. Image Represent,&nbsp;
+  July 2021</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S1047320321000869?via%3Dihub" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9428411" itemprop="url">Person Retrieval in Physical World</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+	Wenxin Huang,&nbsp; Dongyang Li,&nbsp; Ruimin Hu,&nbsp; Chao Liang,&nbsp; Xian Zhong
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  July 2021</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9428411" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9415107/" itemprop="url">Part-Aligned Network with Background for Misaligned Person Search</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Yiting Liu,&nbsp; Wenxin Huang,&nbsp; Xiao Wang,&nbsp; Bo Ma,&nbsp; Jingling Yuan
+
+</div>
+
+<div class="pub-publication">
+ ICASSP,&nbsp;
+  June 2021</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9415107/" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9428380" itemprop="url">Auxiliary Bi-Level Graph Representation for Cross-Modal Image-Text Retrieval</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+	Xian Zhong,&nbsp; Zhengwei Yang,&nbsp; Mang Ye,&nbsp; Wenxin Huang,&nbsp; Jingling Yuan,&nbsp; Chia-Wen Lin
+
+</div>
+
+<div class="pub-publication">
+  ICME,&nbsp;
+  June 2021</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9428380" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<h3>2020</h3>    
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
 <a href="https://ieeexplore.ieee.org/document/9190645" itemprop="url">Dual-Direction Perception and Collaboration Network for Near-Online Multi-Object Tracking</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Ming Tan, Weijian Ruan, Wenxin Huang, Liang Xie, Jingling Yuan
+  Xian Zhong,&nbsp; Ming Tan,&nbsp; Weijian Ruan,&nbsp; Wenxin Huang,&nbsp; Liang Xie,&nbsp; Jingling Yuan
 
 </div>
 
 <div class="pub-publication">
-  2020 IEEE International Conference on Image Processing (ICIP),
+  ICIP,&nbsp;
   September 2020</div>
 
 <div class="pub-links">
@@ -2409,12 +2607,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Jiansheng Dong, Jingling Yuan, Lin Li, Xian Zhong
+  Jiansheng Dong,&nbsp; Jingling Yuan,&nbsp; Lin Li,&nbsp; Xian Zhong
 
 </div>
 
 <div class="pub-publication">
-  2020 IEEE International Conference on Multimedia and Expo (ICME),
+  ICME,&nbsp;
   July 2020</div>
 
 <div class="pub-links">
@@ -2428,58 +2626,6 @@ PDF
 </a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-</div>
-
-      
-    
-      
-<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-<h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/9412416" itemprop="url">Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach</a>
-</h5>
-
-
-<div class="pub-authors" itemprop="author">
-
-  Xian Zhong, Cheng Gu, Wenxin Huang, Lin Li, Shuqin Chen, Chia-Wen Lin
-
-</div>
-
-<div class="pub-publication">
-  2020 25th International Conference on Pattern Recognition (ICPR),
-  January 2020</div>
-
-<div class="pub-links">
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9412416" target="_blank" rel="noopener">
-PDF
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/GuChenghs/MCRNet" target="_blank" rel="noopener">
-  Code
-  </a>
 
 
 
@@ -2512,12 +2658,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Tianyou Lu, Wenxin Huang, Jingling Yuan, Wenxuan Liu, Chia-Wen Lin
+  Xian Zhong,&nbsp; Tianyou Lu,&nbsp; Wenxin Huang,&nbsp; Jingling Yuan,&nbsp; Wenxuan Liu,&nbsp; Chia-Wen Lin
 
 </div>
 
 <div class="pub-publication">
-  ICMR '20: Proceedings of the 2020 International Conference on Multimedia Retrieval,
+  ICMR,&nbsp;
 June 2020</div>
 
 <div class="pub-links">
@@ -2563,12 +2709,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Jiansheng Dong, Jingling Yuan, Lin Li, Xian Zhong, Weiru Liu
+	Jiansheng Dong,&nbsp; Jingling Yuan,&nbsp; Lin Li,&nbsp; Xian Zhong,&nbsp; Weiru Liu
 
 </div>
 
 <div class="pub-publication">
-  ICMR '20: Proceedings of the 2020 International Conference on Multimedia Retrieval,
+  ICMR,&nbsp;
   June 2020</div>
 
 <div class="pub-links">
@@ -2596,11 +2742,10 @@ PDF
 
 
 </div>
-<h3>2019</h3>
 
 </div>
 
-      
+ 
     
       
 <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
@@ -2609,19 +2754,19 @@ PDF
 
 
 <h5 class="article-title" itemprop="name">
-<a href="https://ieeexplore.ieee.org/document/8803000" itemprop="url">Squeeze-and-Excitation Wide Residual Networks in Image Classification</a>
+<a href="https://ieeexplore.ieee.org/document/9053478" itemprop="url">Multi-Scale Residual Network for Image Classification</a>
 </h5>
 
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Oubo Gong, Wenxin Huang, Lin Li, Hongxia Xia
+  Xian Zhong,&nbsp; Oubo Gong,&nbsp; Wenxin Huang,&nbsp; Jingling Yuan,&nbsp; Bo Ma,&nbsp; Ryan Wen Liu
 
 </div>
 
 <div class="pub-publication">
-  2019 IEEE International Conference on Image Processing (ICIP),
-  August 2019</div>
+  ICASSP,&nbsp;
+  May 2020</div>
 
 <div class="pub-links">
 
@@ -2629,7 +2774,7 @@ PDF
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/8803000" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9053478" target="_blank" rel="noopener">
 PDF
 </a>
 
@@ -2649,9 +2794,65 @@ PDF
 
 </div>
 
+
+
+
 </div>
 
       
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/9412416" itemprop="url">Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Cheng Gu,&nbsp; Wenxin Huang,&nbsp; Lin Li,&nbsp; Shuqin Chen,&nbsp; Chia-Wen Lin
+
+</div>
+
+<div class="pub-publication">
+  ICASSP,&nbsp;
+  January 2020</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9412416" target="_blank" rel="noopener">
+PDF
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/GuChenghs/MCRNet" target="_blank" rel="noopener">
+  Code
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+<h3>2019</h3>    
     
       
 <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
@@ -2666,12 +2867,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-	Jiansheng Dong, Jingling Yuan, Lin Li, Xian Zhong, Weiru Liu
+	Jiansheng Dong,&nbsp; Jingling Yuan,&nbsp; Lin Li,&nbsp; Xian Zhong,&nbsp; Weiru Liu
 
 </div>
 
 <div class="pub-publication">
-  2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI),
+ ICTAI,&nbsp;
   November 2019</div>
 
 <div class="pub-links">
@@ -2717,12 +2918,12 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Jiachen Li, Wenxin Huang, Liang Xie
+  Xian Zhong,&nbsp; Jiachen Li,&nbsp; Wenxin Huang,&nbsp; Liang Xie
 
 </div>
 
 <div class="pub-publication">
-  2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI),
+  ICTAI,&nbsp;
   November 2019</div>
 
 <div class="pub-links">
@@ -2751,6 +2952,60 @@ PDF
 
 </div>
 
+
+</div>
+
+      
+    
+      
+<div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+
+
+<h5 class="article-title" itemprop="name">
+<a href="https://ieeexplore.ieee.org/document/8803000" itemprop="url">Squeeze-and-Excitation Wide Residual Networks in Image Classification</a>
+</h5>
+
+
+<div class="pub-authors" itemprop="author">
+
+  Xian Zhong,&nbsp; Oubo Gong,&nbsp; Wenxin Huang,&nbsp; Lin Li,&nbsp; Hongxia Xia
+
+</div>
+
+<div class="pub-publication">
+  ICIP,&nbsp;
+  August 2019</div>
+
+<div class="pub-links">
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/8803000" target="_blank" rel="noopener">
+PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
 </div>
 
       
@@ -2768,12 +3023,13 @@ PDF
 
 <div class="pub-authors" itemprop="author">
 
-  Xian Zhong, Meng Feng, Wenxin Huang, Zheng Wang, Shin'ichi Satoh
+  Xian Zhong,&nbsp; Meng Feng,&nbsp; Wenxin Huang,&nbsp; Zheng Wang,&nbsp; Shin'ichi Satoh
 
 </div>
 
 <div class="pub-publication">
-  Lecture Notes in Computer Science</div>
+  MMM,&nbsp;
+  January 2019</div>
 
 <div class="pub-links">
 
@@ -2860,7 +3116,7 @@ PDF
       
       <li>
         <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Wuhan University of Technology, Wuhan, 430070, China</span>
+        <span id="person-address" itemprop="address">Wuhan University of Technology,&nbsp; Wuhan,&nbsp; 430070,&nbsp; China</span>
       </li>
       
 
