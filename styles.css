@@ -465,8 +465,8 @@ a[data-fancybox] img {
 
 #profile .portrait {
   background-image: url('../img/portrait.jpg');
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 350px;
   margin: 0 auto;
   border-radius: 50%;
   background-size: cover;
@@ -1555,12 +1555,12 @@ body.dark {
   color: rgb(248,&nbsp; 248,&nbsp; 242);
 }
 
-#profile .portrait {
+/* #profile .portrait {
     width: 240px !important;
     height: 380px !important;
     border-radius: 50% !important;
     background-size: cover !important;
     background-position: center bottom !important;
     background-repeat: no-repeat !important;
-}
+} */
 
