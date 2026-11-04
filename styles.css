@@ -2212,3 +2212,25 @@ body.dark {
         margin: 0;
     }
 }
+
+/* Reduce excessive space above Publications */
+#publications.home-section {
+    padding-top: 24px !important;
+}
+
+#publications .section-heading {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#publications .section-heading h6 {
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #publications.home-section {
+        padding-top: 20px !important;
+    }
+}
