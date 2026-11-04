@@ -1958,3 +1958,31 @@ body.dark {
     }
 }
 
+#group-title {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.profile-intro {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.research-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin: 20px 0 10px;
+}
+
+.research-list {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.9;
+    color: #444;
+}
