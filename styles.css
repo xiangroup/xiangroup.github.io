@@ -2310,11 +2310,25 @@ body.dark {
    ========================================== */
 
 /* One unified background for the entire CV */
-.academic-cv {
+/* .academic-cv {
     background: #f6f9fc !important;
     border: 1px solid #e3eaf2 !important;
     border-radius: 14px !important;
     padding: 28px !important;
+} */
+
+
+.academic-cv {
+    background: #ffffff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    /* 左右留白，与 Publications 对齐 */
+    padding: 28px 15px !important;
+
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* Remove individual white cards */
