@@ -2303,3 +2303,48 @@ body.dark {
         padding-top: 20px !important;
     }
 }
+
+
+/* ==========================================
+   Academic CV - Unified Background
+   ========================================== */
+
+/* One unified background for the entire CV */
+.academic-cv {
+    background: #f6f9fc !important;
+    border: 1px solid #e3eaf2 !important;
+    border-radius: 14px !important;
+    padding: 28px !important;
+}
+
+/* Remove individual white cards */
+.academic-cv .cv-panel,
+.academic-cv .cv-degree-card,
+.academic-cv .cv-award,
+.academic-cv .cv-service-card,
+.academic-cv .cv-event,
+.academic-cv .cv-editor-item {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+/* Keep subtle separators between entries */
+.academic-cv .cv-award,
+.academic-cv .cv-editor-item,
+.academic-cv .cv-event {
+    border-bottom: 1px solid #e2e8f0 !important;
+}
+
+/* Consistent spacing */
+.academic-cv .cv-panel {
+    padding: 12px 0 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Remove decorative card backgrounds */
+.academic-cv .cv-service-card,
+.academic-cv .cv-degree-card {
+    padding: 10px 0 !important;
+}
