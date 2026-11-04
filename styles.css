@@ -1958,17 +1958,3 @@ body.dark {
     }
 }
 
-#group-title {
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 1.35;
-    color: #222;
-    margin-top: 0;
-    margin-bottom: 12px;
-}
-
-@media (max-width: 767px) {
-    #group-title {
-        font-size: 23px;
-    }
-}
