@@ -1567,7 +1567,7 @@ body.dark {
 
 /* 强制调整主页头像为纵向椭圆 */
 #profile .portrait {
-    width: 200px !important;
+    width: 260px !important;
     height: 320px !important;
     border-radius: 50% !important;
     background-size: cover !important;
