@@ -472,14 +472,13 @@ a[data-fancybox] img {
   background-size: cover;
 } */
 
-
 #profile .portrait {
-   width: 300px;
-   height: 420px;
+   width: 200px;
+   height: 260px;
    margin: 0 auto;
    border-radius: 50%;
    background-size: cover;
-   background-position: center 20%;
+   background-position: center 25%;
    background-repeat: no-repeat;
 }
 
@@ -1566,4 +1565,12 @@ body.dark {
   color: rgb(248,&nbsp; 248,&nbsp; 242);
 }
 
-
+/* 主页头像：显示完整上半身和衣服Logo */
+#profile .portrait {
+    width: 200px !important;
+    height: 320px !important;
+    border-radius: 50% !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+}
