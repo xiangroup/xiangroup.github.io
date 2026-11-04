@@ -1986,3 +1986,67 @@ body.dark {
     line-height: 1.9;
     color: #444;
 }
+
+
+/* =====================================
+   Wider Homepage Layout
+   ===================================== */
+
+/* Desktop: use nearly the full screen width */
+@media (min-width: 992px) {
+
+    #about > .container {
+        width: 97% !important;
+        max-width: 1700px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 18px;
+        padding-right: 18px;
+        box-sizing: border-box;
+    }
+
+    /* Profile and main content: 30% / 70% */
+    #about > .container > .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    #about > .container > .row > .col-md-4 {
+        flex: 0 0 30%;
+        width: 30%;
+    }
+
+    #about > .container > .row > .col-md-8 {
+        flex: 0 0 70%;
+        width: 70%;
+    }
+
+    /* Academic CV fills the same container */
+    #about .academic-cv {
+        width: 100%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile and tablet */
+@media (max-width: 991px) {
+
+    #about > .container {
+        width: 100% !important;
+        max-width: none !important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #about > .container > .row {
+        display: block;
+    }
+
+    #about > .container > .row > .col-md-4,
+    #about > .container > .row > .col-md-8 {
+        width: 100%;
+    }
+}
