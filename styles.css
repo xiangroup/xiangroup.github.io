@@ -2330,21 +2330,37 @@ body.dark {
     border-radius: 0 !important;
 }
 
-/* Keep subtle separators between entries */
-.academic-cv .cv-award,
-.academic-cv .cv-editor-item,
-.academic-cv .cv-event {
-    border-bottom: 1px solid #e2e8f0 !important;
+
+/* ==========================================
+   Academic CV - Same White Background
+   ========================================== */
+
+/* Entire CV section */
+.academic-cv {
+    background: #ffffff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 28px 0 !important;
 }
 
-/* Consistent spacing */
+/* Remove individual card backgrounds */
+.academic-cv .cv-panel,
+.academic-cv .cv-degree-card,
+.academic-cv .cv-award,
+.academic-cv .cv-service-card,
+.academic-cv .cv-event,
+.academic-cv .cv-editor-item {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Keep original layout spacing */
 .academic-cv .cv-panel {
     padding: 12px 0 !important;
     margin-bottom: 20px !important;
 }
 
-/* Remove decorative card backgrounds */
-.academic-cv .cv-service-card,
-.academic-cv .cv-degree-card {
-    padding: 10px 0 !important;
-}
+
