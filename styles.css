@@ -1576,3 +1576,384 @@ body.dark {
     background-repeat: no-repeat !important;
 } */
 
+
+/* ==========================================
+   Academic CV - Professional Profile Design
+   ========================================== */
+
+.profile-intro {
+    padding: 14px 18px;
+    margin: 18px 0 24px;
+    border-left: 4px solid #0095eb;
+    border-radius: 0 9px 9px 0;
+    background: #f5f9fd;
+    color: #435266;
+    font-size: 0.96rem;
+    line-height: 1.8;
+}
+
+/* Main CV container */
+
+.academic-cv {
+    margin: 42px 0 25px;
+    padding: 30px;
+    background: #f7f9fc;
+    border: 1px solid #e7edf3;
+    border-radius: 16px;
+}
+
+/* Header */
+
+.cv-header {
+    margin-bottom: 22px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #e2eaf2;
+}
+
+.cv-kicker {
+    color: #0095eb;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.cv-header h2 {
+    margin: 7px 0;
+    color: #25364a;
+    font-size: 1.65rem;
+    font-weight: 700;
+}
+
+.cv-subtitle {
+    margin: 0;
+    color: #718096;
+    font-size: 0.88rem;
+}
+
+/* Panels */
+
+.cv-two-column {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.cv-panel {
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #e5ebf1;
+    border-radius: 13px;
+    box-shadow: 0 2px 8px rgba(30, 50, 70, 0.035);
+}
+
+.cv-section-panel {
+    margin-bottom: 16px;
+}
+
+.cv-panel-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 18px;
+    color: #26384a;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.cv-panel-title::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 20px;
+    flex-shrink: 0;
+    background: #0095eb;
+    border-radius: 4px;
+}
+
+/* Education */
+
+.cv-education-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.cv-degree-card {
+    min-width: 0;
+    padding: 14px 11px;
+    background: #f7faff;
+    border: 1px solid #e7eef6;
+    border-radius: 10px;
+}
+
+.cv-degree {
+    color: #0085cf;
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.cv-field {
+    margin: 7px 0;
+    color: #2c3e50;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.cv-school {
+    color: #65758a;
+    font-size: 0.76rem;
+    line-height: 1.55;
+}
+
+.cv-date {
+    margin-top: 10px;
+    color: #0095eb;
+    font-size: 0.76rem;
+    font-weight: 700;
+}
+
+/* Work Experience Timeline */
+
+.cv-timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cv-timeline li {
+    position: relative;
+    margin-left: 5px;
+    padding: 0 0 22px 20px;
+    border-left: 2px solid #e1eaf2;
+}
+
+.cv-timeline li:last-child {
+    padding-bottom: 0;
+    border-left-color: transparent;
+}
+
+.cv-timeline li::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    background: #0095eb;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #0095eb;
+}
+
+.cv-time {
+    color: #0085cf;
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
+.cv-role {
+    margin: 5px 0;
+    color: #2c4054;
+    font-weight: 700;
+}
+
+.cv-meta {
+    color: #65758a;
+    font-size: 0.82rem;
+    line-height: 1.6;
+}
+
+/* Honors */
+
+.cv-awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.cv-award {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr);
+    align-items: start;
+    gap: 10px;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cv-award:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(30, 50, 70, 0.07);
+}
+
+.cv-award-year {
+    display: inline-block;
+    padding: 6px 4px;
+    color: #0078bd;
+    background: #eaf4fc;
+    border-radius: 7px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cv-award-text {
+    margin: 0;
+    color: #3d4b5b;
+    font-size: 0.84rem;
+    line-height: 1.6;
+}
+
+/* Editorial and Professional Service */
+
+.cv-service-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.cv-service-card {
+    padding: 16px;
+    background: #fbfdff;
+    border: 1px solid #e7edf3;
+    border-radius: 10px;
+}
+
+.cv-service-card h4 {
+    margin: 0 0 12px;
+    color: #2c3d50;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.cv-editor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 0;
+    border-top: 1px solid #edf1f5;
+}
+
+.cv-editor-item:first-of-type {
+    padding-top: 0;
+    border-top: none;
+}
+
+.cv-editor-text {
+    min-width: 0;
+}
+
+.cv-editor-role {
+    display: block;
+    margin-bottom: 4px;
+    color: #2b4055;
+    font-size: 0.84rem;
+    font-weight: 700;
+}
+
+.cv-editor-journal {
+    display: block;
+    color: #637387;
+    font-size: 0.8rem;
+    line-height: 1.55;
+}
+
+.cv-period {
+    flex-shrink: 0;
+    color: #0085cf;
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Conference Tags */
+
+.cv-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cv-tag {
+    display: inline-block;
+    padding: 7px 10px;
+    color: #39566f;
+    background: #eef5fb;
+    border: 1px solid #dfeaf3;
+    border-radius: 7px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+}
+
+/* Lead Organizer */
+
+.cv-subheading {
+    margin: 18px 0 12px;
+    color: #2c3d50;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cv-event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.cv-event {
+    padding: 14px;
+    background: #fff;
+    border: 1px solid #e7edf3;
+    border-radius: 10px;
+}
+
+.cv-event-meta {
+    margin-bottom: 8px;
+    color: #0085cf;
+    font-size: 0.76rem;
+    font-weight: 800;
+}
+
+.cv-event-title {
+    margin: 0;
+    color: #3d4b5b;
+    font-size: 0.84rem;
+    line-height: 1.65;
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: 767px) {
+
+    .academic-cv {
+        margin-top: 25px;
+        padding: 16px;
+    }
+
+    .cv-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .cv-two-column,
+    .cv-service-top {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-awards-grid,
+    .cv-event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-panel {
+        padding: 16px;
+    }
+}
