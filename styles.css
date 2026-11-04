@@ -2234,3 +2234,72 @@ body.dark {
         padding-top: 20px !important;
     }
 }
+
+
+/* ==========================================
+   Contact - Full Width Layout
+   ========================================== */
+
+#contact.home-section {
+    padding-top: 24px !important;
+    padding-bottom: 40px !important;
+}
+
+/* Match Publications container width */
+#contact > .container {
+    width: 99% !important;
+    max-width: 1900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box;
+}
+
+/* Heading and contact details on separate rows */
+#contact > .container > .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Contact heading */
+#contact .section-heading {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+#contact .section-heading h6 {
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+    text-align: left;
+}
+
+/* Contact information */
+#contact > .container > .row > .col-md-8 {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+}
+
+/* Preserve original icons and links */
+#contact .fa-ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contact .fa-ul li {
+    margin-bottom: 12px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #contact.home-section {
+        padding-top: 20px !important;
+    }
+}
