@@ -2024,3 +2024,19 @@ body.dark {
     }
 }
 
+
+/* Widen the top navigation to match homepage content */
+@media (min-width: 992px) {
+
+    .navbar .container,
+    .navbar .container-fluid {
+        width: 99% !important;
+        max-width: 1900px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box;
+    }
+
+}
