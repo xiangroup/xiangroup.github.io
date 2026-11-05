@@ -2306,48 +2306,26 @@ body.dark {
 
 
 /* ==========================================
-   Academic CV - Unified Background
+   Academic CV - Unified Layout
+   Match Publications width and background
    ========================================== */
 
-/* One unified background for the entire CV */
 .academic-cv {
-    background: #f6f9fc !important;
-    border: 1px solid #e3eaf2 !important;
-    border-radius: 14px !important;
-    padding: 28px !important;
-}
+    width: 99%;
+    max-width: 1900px;
+    margin: 42px auto 25px;
+    padding: 28px 10px !important;
 
+    box-sizing: border-box;
 
-
-
-/* Remove individual white cards */
-.academic-cv .cv-panel,
-.academic-cv .cv-degree-card,
-.academic-cv .cv-award,
-.academic-cv .cv-service-card,
-.academic-cv .cv-event,
-.academic-cv .cv-editor-item {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-}
-
-
-/* ==========================================
-   Academic CV - Same White Background
-   ========================================== */
-
-/* Entire CV section */
-.academic-cv {
     background: #ffffff !important;
     border: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    padding: 28px 0 !important;
 }
 
 /* Remove individual card backgrounds */
+
 .academic-cv .cv-panel,
 .academic-cv .cv-degree-card,
 .academic-cv .cv-award,
@@ -2360,10 +2338,26 @@ body.dark {
     box-shadow: none !important;
 }
 
-/* Keep original layout spacing */
+/* Preserve internal spacing */
+
 .academic-cv .cv-panel {
     padding: 12px 0 !important;
     margin-bottom: 20px !important;
 }
+
+/* Mobile layout */
+
+@media (max-width: 767px) {
+
+    .academic-cv {
+        width: 100%;
+        max-width: none;
+        margin: 25px auto 20px;
+        padding: 20px 15px !important;
+    }
+
+}
+
+
 
 
