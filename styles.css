@@ -2675,3 +2675,134 @@ body.dark {
         font-size: 23px;
     }
 }
+
+/* =========================================
+   Honors & Awards - Redesign
+   Match Education & Professional Experience
+   ========================================= */
+
+.honors-redesign {
+    margin-top: 8px;
+}
+
+.honors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: stretch;
+}
+
+.honor-card {
+    min-width: 0;
+    padding: 24px 25px;
+    background: #ffffff;
+    border: 1px solid #e5ebf2;
+    border-radius: 13px;
+    box-shadow: 0 3px 12px rgba(35, 55, 75, 0.045);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.honor-card:hover {
+    box-shadow: 0 7px 22px rgba(35, 55, 75, 0.08);
+    transform: translateY(-2px);
+}
+
+/* Wider cards for years with more items */
+.honor-card-wide {
+    grid-column: span 2;
+}
+
+.honor-card-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #edf1f5;
+}
+
+.honor-year {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    height: 34px;
+    padding: 0 14px;
+    border-radius: 9px;
+    background: #eaf5fc;
+    color: #0788c9;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.honor-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.honor-list li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    color: #526579;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.honor-list li:last-child {
+    margin-bottom: 0;
+}
+
+.honor-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #0a89c9;
+}
+
+/* Make section title spacing consistent */
+.honors-redesign .cv-panel-title {
+    margin-bottom: 18px;
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+    .honors-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .honor-card,
+    .honor-card-wide {
+        grid-column: span 1;
+    }
+
+    .honor-card {
+        padding: 22px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .honor-card {
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    .honor-year {
+        min-width: 58px;
+        height: 32px;
+        font-size: 13px;
+    }
+
+    .honor-list li {
+        font-size: 13px;
+        line-height: 1.75;
+    }
+}
