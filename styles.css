@@ -2359,5 +2359,41 @@ body.dark {
 }
 
 
+/* ==========================================
+   Profile Introduction - Typography Refinement
+   ========================================== */
+
+.profile-intro {
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 400;
+    line-height: 1.85 !important;
+    letter-spacing: 0.01em;
+
+    color: #3d4652 !important;
+
+    /* Remove blue vertical line */
+    border: none !important;
+    border-left: none !important;
+
+    /* Cleaner background */
+    border-radius: 8px !important;
+    background: #f7f9fc !important;
+
+    padding: 16px 20px !important;
+    margin: 18px 0 24px !important;
+
+    box-shadow: none !important;
+}
+
+/* Mobile adaptation */
+@media screen and (max-width: 767px) {
+    .profile-intro {
+        font-size: 16px !important;
+        line-height: 1.75 !important;
+        padding: 14px 16px !important;
+    }
+}
+
 
 
