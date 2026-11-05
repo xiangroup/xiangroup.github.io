@@ -2835,3 +2835,194 @@ body.dark {
         font-size: 23px !important;
     }
 }
+
+
+/* =========================================
+   Recent Research Projects
+   Match Education & Professional Experience
+   ========================================= */
+
+.research-projects-section {
+    margin: 0 0 25px;
+}
+
+/* Section heading */
+
+.research-projects-heading {
+    margin: 0 0 18px !important;
+    padding: 0 !important;
+}
+
+.research-projects-heading h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: #263b50 !important;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* Remove blue vertical line */
+
+.research-projects-heading h2::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Main card */
+
+.research-projects-card {
+    padding: 10px 25px !important;
+    background: #ffffff !important;
+    border: 1px solid #e5ebf2 !important;
+    border-radius: 13px !important;
+    box-shadow: 0 3px 12px rgba(35, 55, 75, 0.045) !important;
+}
+
+/* Project list */
+
+.research-project-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Individual project */
+
+.research-project-entry {
+    display: grid;
+    grid-template-columns: 90px minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+
+    padding: 22px 0;
+}
+
+.research-project-entry + .research-project-entry {
+    border-top: 1px solid #edf1f5;
+}
+
+/* Year label */
+
+.research-project-year {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    min-height: 36px;
+
+    background: #eaf5fc;
+    border-radius: 8px;
+
+    color: #0788c9;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+/* Funding category */
+
+.research-project-funding {
+    margin-bottom: 7px;
+
+    color: #0788c9;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/* Project title */
+
+.research-project-content h3 {
+    margin: 0 0 8px !important;
+
+    color: #263b50 !important;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.65;
+}
+
+/* Funding institution */
+
+.research-project-institution {
+    margin: 0 0 10px !important;
+
+    color: #65758a;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* PI label */
+
+.research-project-role {
+    display: inline-block;
+    padding: 5px 10px;
+
+    background: #edf6fc;
+    border-radius: 6px;
+
+    color: #087fba;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* Hover effect */
+
+.research-projects-card {
+    transition: box-shadow 0.2s ease;
+}
+
+.research-projects-card:hover {
+    box-shadow: 0 7px 22px rgba(35, 55, 75, 0.08) !important;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 991px) {
+    .research-projects-card {
+        padding: 8px 20px !important;
+    }
+
+    .research-project-entry {
+        gap: 15px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+
+    .research-projects-heading h2 {
+        font-size: 23px;
+    }
+
+    .research-projects-card {
+        padding: 8px 17px !important;
+        border-radius: 10px !important;
+    }
+
+    .research-project-entry {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 18px 0;
+    }
+
+    .research-project-year {
+        width: 65px;
+        min-height: 32px;
+        font-size: 13px;
+    }
+
+    .research-project-content h3 {
+        font-size: 15px;
+    }
+
+    .research-project-institution {
+        font-size: 13px;
+    }
+}
