@@ -3026,3 +3026,38 @@ body.dark {
         font-size: 13px;
     }
 }
+
+
+/* =========================================
+   Publications Heading - Mobile Left Align
+   Match Contact Heading
+   ========================================= */
+
+@media screen and (max-width: 767px) {
+
+    #publications > .container > .row {
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+    #publications .section-heading {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        text-align: left !important;
+    }
+
+    #publications .section-heading h6 {
+        display: block !important;
+        width: 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        text-align: left !important;
+    }
+}
