@@ -2640,3 +2640,38 @@ body.dark {
     }
 }
 
+
+/* Academic Career - Compact Heading */
+
+.academic-cv {
+    margin-top: 12px !important;
+    padding-top: 8px !important;
+}
+
+.career-section-header {
+    margin: 0 0 18px !important;
+    padding: 0 !important;
+}
+
+.career-section-header h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: #263b50;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* Remove unused subtitle and eyebrow */
+.career-eyebrow,
+.career-section-header p {
+    display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+    .career-section-header h2 {
+        font-size: 23px;
+    }
+}
