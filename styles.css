@@ -1,8 +1,4 @@
-
-
-
-  
-/*************************************************
+ /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
  *  https://github.com/gcushen/hugo-academic
@@ -2804,5 +2800,38 @@ body.dark {
     .honor-list li {
         font-size: 13px;
         line-height: 1.75;
+    }
+}
+
+
+/* =========================================
+   Honors & Awards - Match Career Heading
+   ========================================= */
+
+.honors-redesign > .cv-panel-title {
+    display: block !important;
+
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+
+    color: #263b50 !important;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 27px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+
+    border: none !important;
+}
+
+/* Remove the blue vertical bar */
+.honors-redesign > .cv-panel-title::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .honors-redesign > .cv-panel-title {
+        font-size: 23px !important;
     }
 }
